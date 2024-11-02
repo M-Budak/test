@@ -56,7 +56,7 @@ class BrandModal extends HTMLElement {
     
       return brands.map(brand => `
         <div class="brand modal-card">
-          <a href="../markalar/${brand.name.toLowerCase()}.html?brand=${brand.name.toLowerCase()}" class="brand-link">
+          <a href="../marka/${brand.name.toLowerCase()}.html?brand=${brand.name.toLowerCase()}" class="brand-link">
             <div class="card h-100 d-flex flex-column align-items-center">
               <img src="${brand.img}" class="modal-img-brand" alt="${brand.name}">
               <div class="home-card-body">

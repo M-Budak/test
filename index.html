@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>Anasayfa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <my-header></my-header>
+
+    <div class="full-width-carousel">
+      <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="model/t10x.html" class="carousel-link">
+            <img src="img/carousel/togg.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>Togg T10X</h5>
+              <p>Şimdi yeni eklenen aracımız Togg T10X'i puanlayabilir sen de hemen yorumlayabilirsin!</p>
+            </div>
+          </a>
+          </div>
+          <div class="carousel-item">
+            <a href="model/320i.html" class="carousel-link">
+            <img src="img/carousel/volvo-xc40.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>2024 Model XC40</h5>
+              <p>Çok yakında Araç Yorumu'nda!</p>
+            </div>
+            </a>
+          </div>
+          <div class="carousel-item">
+            <a href="https://m-budak.github.io/cargurue/kasa.html" class="carousel-link">
+            <img src="img/carousel/tesla.webp" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h5>Geleceğin Araçları</h5>
+              <p>Son teknoloji Elektrikli Otomobilleri senin için bir araya getirdik.</p>
+            </div>
+          </a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    
+    <div class="container">
+
+      <a href="arac-yorumu/markalar.html">
+        <h2 class="genel-baslik-2">Otomobil Markaları</h2>
+      </a>
+<div class="row row-cols-3 row-cols-md-6 g-4 mt-3">
+    <div class="brand">
+      <a href="markalar/peugeot.html?brand=peugeot"brand-link"> 
+          <div class="card h-100">
+              <img src="logo/peugeot.svg" class="six-brand-img" alt="...">
+              <div class="home-card-body">
+                  <h5 class="home-text-brand">Peugeot</h5>
+              </div>
+          </div>
+      </a>
+    </div>
+    <div class="brand">
+      <a href="markalar/nissan.html?brand=nissan" class="brand-link"> 
+        <div class="card h-100">
+          <img src="logo/nissan.svg" class="six-brand-img" alt="...">
+          <div class="home-card-body">
+            <h5 class="home-text-brand">Nissan</h5>
+            </div>
+        </div>
+      </a>
+    </div>
+    <div class="brand">
+      <a href="markalar/fiat.html?brand=fiat" class="brand-link"> 
+        <div class="card h-100">
+          <img src="logo/fiat.svg" class="six-brand-img" alt="...">
+          <div class="home-card-body">
+            <h5 class="home-text-brand">Fiat</h5>
+            </div>
+        </div>
+      </a>
+    </div>
+    <div class="brand">
+      <a href="markalar/opel.html?brand=opel" class="brand-link"> 
+        <div class="card h-100">
+          <img src="logo/opel.svg" class="six-brand-img" alt="...">
+          <div class="home-card-body">
+            <h5 class="home-text-brand">Opel</h5>
+            </div>
+        </div>
+      </a>
+    </div>
+    <div class="brand">
+      <a href="markalar/dacia.html?brand=dacia" class="brand-link"> 
+        <div class="card h-100">
+          <img src="logo/dacia.svg" class="six-brand-img" alt="...">
+          <div class="home-card-body">
+            <h5 class="home-text-brand">Dacia</h5>
+            </div>
+        </div>
+      </a>
+    </div>
+    <div class="brand">
+      <a href="markalar/toyota.html?brand=toyota" class="brand-link"> 
+        <div class="card h-100">
+          <img src="logo/toyota.svg" class="six-brand-img" alt="...">
+          <div class="home-card-body">
+            <h5 class="home-text-brand">Toyota</h5>
+            </div>
+        </div>
+      </a>
+    </div>
+</div>
+
+<div>
+  <a href="arac-yorumu/markalar.html"></a>
+</div>
+
+    <!-- <div id="six_brands"></div> -->
+    <!-- <brands-section></brands-section> -->
+    <brand-modal></brand-modal>
+    <!-- <div id="brand_modal"></div> -->
+    <!-- <div id="car_bodies"></div> -->
+    <car-bodies></car-bodies>
+
+
+    <h2 class="genel-baslik-2">En Yeni Otomobiller</h2>
+    <div class="scrollable-cards">
+      <div class="card">
+        <a href="model/polo.html?model=polo">
+          <img src="img/models/polo6.webp" class="card-img-top" alt="Card Image">
+            <h5 class="yeni-eklenen-title">Volkswagen Polo</h5>
+        </a>
+      </div>
+      <div class="card">
+        <a href="model/megane4.html?model=megane4">
+        <img src="img/models/megane4.webp" class="card-img-top" alt="Card Image">
+            <h5 class="yeni-eklenen-title">Renault Megane 4</h5>
+        </a>
+    </div>
+    <div class="card">
+      <a href="model/passat.html?model=passat">
+        <img src="img/models/passat.webp" class="card-img-top" alt="Card Image">
+          <h5 class="yeni-eklenen-title">Volkswagen Passat B8</h5>
+      </a>
+    </div>
+    <div class="card">
+      <a href="model/tiggo_8_pro.html?model=tiggo_8_pro">
+      <img src="img/models/cherry-tiggo8pro.webp" class="card-img-top" alt="Card Image">
+          <h5 class="yeni-eklenen-title">Cherry Tiggo 8 Pro</h5>
+      </a>
+  </div>
+  <div class="card">
+    <a href="model/408.html?model=408">
+      <img src="img/models/408.webp" class="card-img-top" alt="Card Image">
+        <h5 class="yeni-eklenen-title">Peugeot 408</h5>
+    </a>
+  </div>
+  <div class="card">
+    <a href="model/qasqai.html?model=qasqai">
+      <img src="img/models/qasqai.webp" class="card-img-top" alt="Card Image">
+          <h5 class="yeni-eklenen-title">Nissan Qasqai</h5>
+      </a>
+  </div>
+
+
+      <!-- İhtiyaç duyulan sayıda kartı ekleyebilirsiniz -->
+   </div>
+   <div class="background-wrapper">
+    <!-- <a href="arac-yorumu/yakit.html"> -->
+    <h2 class="genel-baslik-2" style="margin-top:12px; padding:0px 0px 0px 12px; color: white;">Yakıt Türleri</h2>
+    <!-- </a> -->
+    <div class="row row-cols-3 g-4 mt-3" style="padding: 0px 12px 10px 12px; justify-content: flex-start;">
+        <div class="brand">
+          <a href="yakit/benzinli.html" class="brand-link"> 
+              <div class="card ">
+                  <div class="home-card-body">
+                      <h5 class="home-text-brand">Benzinli</h5>
+                  </div>
+              </div>
+          </a>
+        </div>
+        <div class="brand">
+          <a href="yakit/dizel.html" class="brand-link"> 
+            <div class="card ">
+              <div class="home-card-body">
+                <h5 class="home-text-brand">Dizel</h5>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="brand">
+          <a href="yakit/lpg.html" class="brand-link"> 
+            <div class="card ">
+              <div class="home-card-body">
+                <h5 class="home-text-brand">LPG</h5>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="brand">
+          <a href="yakit/elektrikli.html" class="brand-link"> 
+            <div class="card ">
+              <div class="home-card-body">
+                <h5 class="home-text-brand">Elektrikli</h5>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="brand">
+          <a href="yakit/hibrit.html" class="brand-link"> 
+            <div class="card ">
+              <div class="home-card-body">
+                <h5 class="home-text-brand">Hibrit</h5>
+                </div>
+            </div>
+          </a>
+        </div>
+        <div class="brand">
+          <a href="https://m-budak.github.io/cargurue/arac-yorumu/yakit.html" class="brand-link"> 
+            <div class="card ">
+              <div class="home-card-body">
+                  <h5 class="home-text-brand">Tümü</h5>
+                </div>
+            </div>
+          </a>
+        </div>
+    </div>
+    </div>
+
+
+   <h2 class="genel-baslik-2">En Popüler Yorumlar</h2>
+   <div class="scrollable-cards">
+    <div class="card">
+      <a href="model/egea_cross.html?model=egea_cross">
+      <img src="img/models/egeacross.webp" class="card-img-top" alt="Card Image">
+      <div class="card-body">
+        <h5 class="card-title">Egea Cross</h5>
+        <p class="card-text">
+          Yaklaşık bir yıldır sürüş yapıyorum ve genel olarak oldukça memnunum. Yakıt tüketimi şehir içinde bile gayet makul. İç mekan geniş ve konforlu, özellikle uzun yolculuklar için ideal.
+        </p></a>
+      </div>
+    </div>
+
+    <div class="card">
+      <a href="model/focus.html?model=focus">
+        <img src="img/models/focus.webp" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+            <h5 class="card-title">Ford Focus</h5>
+            <p class="card-text">Yakıt tasarrufu ve geniş iç mekanı ile şehir içinde kullanımı çok pratik. Uzun yolculuklar Yakıt tasarrufu ve geniş iç mekanı ile şehir içinde kullanımı çok pratik. Uzun yolculuklar için de oldukça konforlu.</p>
+          </a>
+          </div>
+    </div>
+    <div class="card">
+      <a href="model/c_serisi.html?model=c_serisi">
+        <img src="img/models/cserisi.webp" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+            <h5 class="card-title">Mercedes-Benz C Serisi</h5>
+            <p class="card-text">Mükemmel yol tutuşu ve şık tasarımı ile lüksü ve performansı bir araya getiriyor. Sürüş keyfi arayanlar için ideal.</p></a>
+        </div>
+    </div>
+    <div class="card">
+      <a href="model/tiguan.html?model=tiguan">
+        <img src="img/models/tiguan.webp" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+            <h5 class="card-title">Volkswagen Tiguan</h5>
+            <p class="card-text">Geniş iç hacmi ve düşük yakıt tüketimi ile hem şehir içi hem de uzun yolculuklarda ideal bir seçenek. Konforlu ve ekonomik.</p></a>
+        </div>
+    </div>
+    <div class="card">
+      <a href="model/mokka.html?model=mokka">
+        <img src="img/models/mokka.webp" class="card-img-top" alt="Card Image">
+        <div class="card-body">
+            <h5 class="card-title">Opel Mokka</h5>
+            <p class="card-text">Dinamik tasarımı ve güçlü performansı ile dikkat çekiyor. Şehir içinde ve dışında konforlu bir sürüş sağlıyor.</p></a>
+        </div>
+    </div>
+  
+    <div class="card">
+      <a href="model/sandero.html?model=sandero">
+      <img src="img/models/sandero3.webp" class="card-img-top" alt="Card Image">
+      <div class="card-body">
+          <h5 class="card-title">Dacia Sandero</h5>
+          <p class="card-text">Güçlü performansı ve konforlu kabini ile zorlu arazilerde bile rahat bir sürüş sağlıyor. Off-road tutkunları için ideal.
+            Yaklaşık bir yıldır sürüş yapıyorum ve genel olarak oldukça memnunum. Yakıt tüketimi şehir içinde bile gayet makul. İç mekan geniş ve konforlu, özellikle uzun yolculuklar için ideal
+          </p></a>
+      </div>
+    </div>
+     <!-- İhtiyaç duyulan sayıda kartı ekleyebilirsiniz -->
+    </div>
+
+  <car-segments></car-segments>
+
+  <h2 class="genel-baslik-2">En Yüksek Puan Alan Modeller</h2>
+  <div class="scrollable-cards">
+    <div class="card">
+      <a href="model/polo.html?model=polo">
+        <img src="img/models/polo6.webp" class="card-img-top" alt="Card Image">
+          <h5 class="yeni-eklenen-title">Volkswagen Polo</h5>
+      </a>
+    </div>
+    <div class="card">
+      <a href="model/megane4.html?model=megane4">
+      <img src="img/models/megane4.webp" class="card-img-top" alt="Card Image">
+          <h5 class="yeni-eklenen-title">Renault Megane 4</h5>
+      </a>
+  </div>
+  <div class="card">
+    <a href="model/passat.html?model=passat">
+      <img src="img/models/passat.webp" class="card-img-top" alt="Card Image">
+        <h5 class="yeni-eklenen-title">Volkswagen Passat B8</h5>
+    </a>
+  </div>
+  <div class="card">
+    <a href="model/tiggo_8_pro.html?model=tiggo_8_pro">
+    <img src="img/models/cherry-tiggo8pro.webp" class="card-img-top" alt="Card Image">
+        <h5 class="yeni-eklenen-title">Cherry Tiggo 8 Pro</h5>
+    </a>
+</div>
+<div class="card">
+  <a href="model/408.html?model=408">
+    <img src="img/models/408.webp" class="card-img-top" alt="Card Image">
+      <h5 class="yeni-eklenen-title">Peugeot 408</h5>
+  </a>
+</div>
+<div class="card">
+  <a href="model/qasqai.html?model=qasqai">
+    <img src="img/models/qasqai.webp" class="card-img-top" alt="Card Image">
+        <h5 class="yeni-eklenen-title">Nissan Qasqai</h5>
+    </a>
+</div>
+
+
+    <!-- İhtiyaç duyulan sayıda kartı ekleyebilirsiniz -->
+ </div>
+  
+  <div class="background-wrapper">
+  <!-- <a href="arac-yorumu/markalar.html"> yeni modeller için html yapıldığında -->
+  <h2 class="genel-baslik-2" style="padding:10px 0px 0px 12px; color: white;">En Son Eklenen Modeller</h2>
+  <!-- </a> -->
+  <div class="scrollable-cards" style="padding: 0px 12px 10px 12px;">
+    <div class="card">
+      <a href="model/polo.html?model=polo">
+        <img src="img/models/polo6.webp" class="card-img-top" alt="Card Image">
+          <h5 class="yeni-eklenen-title">Volkswagen Polo</h5>
+      </a>
+    </div>
+    <div class="card">
+      <a href="model/megane4.html?model=megane4">
+      <img src="img/models/megane4.webp" class="card-img-top" alt="Card Image">
+          <h5 class="yeni-eklenen-title">Renault Megane 4</h5>
+      </a>
+  </div>
+  <div class="card">
+    <a href="model/passat.html?model=passat">
+      <img src="img/models/passat.webp" class="card-img-top" alt="Card Image">
+        <h5 class="yeni-eklenen-title">Volkswagen Passat B8</h5>
+    </a>
+  </div>
+  <div class="card">
+    <a href="model/tiggo_8_pro.html?model=tiggo_8_pro">
+    <img src="img/models/cherry-tiggo8pro.webp" class="card-img-top" alt="Card Image">
+        <h5 class="yeni-eklenen-title">Cherry Tiggo 8 Pro</h5>
+    </a>
+</div>
+<div class="card">
+  <a href="model/408.html?model=408">
+    <img src="img/models/408.webp" class="card-img-top" alt="Card Image">
+      <h5 class="yeni-eklenen-title">Peugeot 408</h5>
+  </a>
+</div>
+<div class="card">
+  <a href="model/qasqai.html?model=qasqai">
+    <img src="img/models/qasqai.webp" class="card-img-top" alt="Card Image">
+        <h5 class="yeni-eklenen-title">Nissan Qasqai</h5>
+    </a>
+</div>
+    <!-- İhtiyaç duyulan sayıda kartı ekleyebilirsiniz -->
+ </div>
+
+ </div>
+
+<!-- İlk baştan kalan otomobil haberleri kısmı
+
+  <h2 class="genel-baslik-2">Otomobil Haberleri</h2>
+    <div class="row no-gutters">
+      <div class="col-9 main-news">
+        <div class="news-thumbnail">
+          <div class="news-title">Ana Haber Başlığı</div>
+        </div>
+      </div>
+      <div class="col-3 side-news">
+        <div class="news-thumbnail">
+          <div class="news-title">Yan Haber Başlığı 1</div>
+        </div>
+        <div class="news-thumbnail" style="margin: 10px 0px 10px 10px;">
+          <div class="news-title">Yan Haber Başlığı 2</div>
+        </div>
+        <div class="news-thumbnail" style="margin-bottom: 0px;">
+          <div class="news-title">Yan Haber Başlığı 3</div>
+        </div>
+      </div>
+    </div> -->
+  
+
+  </div>
+  <my-footer></my-footer>
+  
+    <script src="fetch/header.js"></script>
+    <script src="fetch/fuels.js"></script>
+    <script src="fetch/segments.js"></script>
+    <script src="fetch/footer.js"></script> 
+    <script src="fetch/six_brands.js"></script> 
+    <script src="fetch/brand_modal.js"></script>
+    <script src="fetch/car_bodies.js"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="fetch/include.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+          // Kartların metinlerini kısaltma işlemi
+          const cards = document.querySelectorAll('.scrollable-cards .card-body');
+  
+          cards.forEach(card => {
+              const cardText = card.querySelector('.card-text');
+              const readMore = card.querySelector('.read-more');
+              const fullText = cardText.textContent;
+  
+              if (fullText.length > 150) {
+                  const truncatedText = fullText.substring(0, 150) + '...';
+                  cardText.textContent = truncatedText;
+                  readMore.style.display = 'inline';
+              }
+  
+              readMore.addEventListener('click', function () {
+                  cardText.textContent = fullText;
+                  readMore.style.display = 'none';
+              });
+          });
+  
+          // Hamburger menüsünün açılıp kapanma işlemi
+          const menuToggle = document.getElementById('menu-toggle');
+          const menu = document.getElementById('menu');
+  
+          menuToggle.addEventListener('click', function () {
+              // Menüye "show" sınıfını ekleyerek gizli/görünür yapıyoruz
+              menu.classList.toggle('show');
+          });
+      });
+  </script>
+  
+
+      
+
+    </body>
+    </html>

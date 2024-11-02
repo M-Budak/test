@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="../style.css">
+  <script src="https://kit.fontawesome.com/a67856db21.js" crossorigin="anonymous"></script>
+  <script src="../fetch/body.js"></script>
+  <script src="../fetch/header.js" defer></script>
+  <script src="../fetch/footer.js" defer></script>
+    <title>Document</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
+    <my-header></my-header>
+    
+    <div class="carbody container">  
+        <h1 class="genel-baslik-1 mt-2">Araç Kasa Tipleri</h1>
+    
+        <nav id="navbar-example2" class="navbar bg-body-white mb-3 sticky-top">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#benzinli">Benzinli</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#dizel">Dizel</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#lpg">LPG</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#elektrikli">Elektrikli</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hibrit">Hibrit</a>
+              </li>
+
+            </ul>
+          </nav>
+    
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -25%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+
+          <!-- Sedan Modeller -->
+          <section id="benzinli">
+            <h2 class="genel-baslik-2">Benzinli Modeller</h2>
+            <div class="row" id="given-ids" data-model-ids="BMBSHBF4,PE48HB1N,CT4XHB1N,HNCVSE11,PE48HB1N,CT4XHB1N,PE48HB1N,CT4XHB1N"></div>
+            <div class="kasa-link"><a href="../yakit/benzinli.html">Tüm Benzinli Modeller ></a></div>
+          </section>
+          
+            <section id="dizel">
+                <h2 class="genel-baslik-2">Dizel Modeller</h2>
+                <div class="row" id="hb-models" data-model-ids="CT4XHB1N,PE48HB1N,CT4XHB1N,RNCLHB5N,OPCSHBFN,FTEGHB1N"></div>
+                <div class="kasa-link">
+                  <a href="../yakit/dizel.html">Tüm Dizel Modeller ></a>
+                </div>
+            </section>
+    
+            <section id="lpg">
+                <h2 class="genel-baslik-2">LPG'li Modeller</h2>
+                <div class="row" id="suv-models" data-model-ids="PE38SU2N,HYBASU1N"></div>
+                <div class="kasa-link">
+                  <a href="../yakit/lpg.html">Tüm LPG'li Modeller ></a>
+                </div>
+            </section>
+
+            <section id="elektrikli">
+              <h2 class="genel-baslik-2">Elektrikli Modeller</h2>
+              <div class="row" id="given-ids" data-model-ids="BMBSHBF4,PE48HB1N,CT4XHB1N,HNCVSE11,PE48HB1N,CT4XHB1N,PE48HB1N,CT4XHB1N"></div>
+              <div class="kasa-link"><a href="../yakit/elektrikli.html">Tüm Elektrikli Modeller ></a></div>
+            </section>
+
+            <section id="hibrit">
+              <h2 class="genel-baslik-2">Hibrit Modeller</h2>
+              <div class="row" id="given-ids" data-model-ids="BMBSHBF4,PE48HB1N,CT4XHB1N,HNCVSE11,PE48HB1N,CT4XHB1N,PE48HB1N,CT4XHB1N"></div>
+              <div class="kasa-link"><a href="../yakit/hibrit.html">Tüm Hibrit Modeller ></a></div>
+            </section>
+        </div>
+    
+        <h2 class="genel-baslik-2">Popüler Otomobil Markaları</h2>
+        <div class="row row-cols-3 row-cols-md-6 g-4 mt-3">
+          <div class="brand">
+            <a href="../markalar/peugeot.html?brand=peugeot" class="brand-link"> 
+                <div class="card h-100">
+                    <img src="../logo/peugeot.svg" class="six-brand-img" alt="...">
+                    <div class="home-card-body">
+                        <h5 class="home-text-brand">Peugeot</h5>
+                    </div>
+                </div>
+            </a>
+          </div>
+          <div class="brand">
+            <a href="../markalar/nissan.html?brand=nissan" class="brand-link"> 
+              <div class="card h-100">
+                <img src="../logo/nissan.svg" class="six-brand-img" alt="...">
+                <div class="home-card-body">
+                  <h5 class="home-text-brand">Nissan</h5>
+                  </div>
+              </div>
+            </a>
+          </div>
+          <div class="brand">
+            <a href="../markalar/fiat.html?brand=fiat" class="brand-link"> 
+              <div class="card h-100">
+                <img src="../logo/fiat.svg" class="six-brand-img" alt="...">
+                <div class="home-card-body">
+                  <h5 class="home-text-brand">Fiat</h5>
+                  </div>
+              </div>
+            </a>
+          </div>
+          <div class="brand">
+            <a href="../markalar/opel.html?brand=opel" class="brand-link"> 
+              <div class="card h-100">
+                <img src="../logo/opel.svg" class="six-brand-img" alt="...">
+                <div class="home-card-body">
+                  <h5 class="home-text-brand">Opel</h5>
+                  </div>
+              </div>
+            </a>
+          </div>
+          <div class="brand">
+            <a href="../markalar/dacia.html?brand=dacia" class="brand-link"> 
+              <div class="card h-100">
+                <img src="../logo/dacia.svg" class="six-brand-img" alt="...">
+                <div class="home-card-body">
+                  <h5 class="home-text-brand">Dacia</h5>
+                  </div>
+              </div>
+            </a>
+          </div>
+          <div class="brand">
+            <a href="../markalar/toyota.html?brand=toyota" class="brand-link"> 
+              <div class="card h-100">
+                <img src="../logo/toyota.svg" class="six-brand-img" alt="...">
+                <div class="home-card-body">
+                  <h5 class="home-text-brand">Toyota</h5>
+                  </div>
+              </div>
+            </a>
+          </div>
+      </div>
+    
+      <!-- brand modal'a tıklayınca tüm görseller gidiyor o yüzden yoruma aldım  -->
+        <!-- <brand-modal></brand-modal>  -->
+
+    <script src="../fetch/brand_modal.js"></script>
+    <script src="../fetch/testdata.js"></script>
+  </div>
+  
+  <my-footer></my-footer>
+  
+  <!-- Bootstrap JavaScript Dosyaları -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4JQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

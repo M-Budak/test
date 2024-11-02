@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="../style.css">
+    <script src="https://kit.fontawesome.com/a67856db21.js" crossorigin="anonymous"></script>
+    <title>C4X</title>
+</head>
+<body>
+    <my-header></my-header>
+    <div class="container">
+        <!-- Header Section Starts -->
+        <div class="row">
+            <!-- Küçük ekranlar için sıralı düzen -->
+            <div class="col-md-6 order-md-1 order-2">
+                <h1 class="genel-baslik-1 order-1"></h1>
+                <p></p>
+                <div class="button-container"></div>
+            </div>
+            <div class="col-md-6 order-md-2 order-1 mt-2 mb-3">
+                <img loading="lazy" class="img-fluid" alt="">
+            </div>
+        </div>
+
+        <!-- Score Section Starts -->
+        <div id="score" class="row mt-5">
+            <!-- Performans ve konfor verileri buraya yüklenecek -->
+        </div>
+        <!-- Score Section Ends -->
+
+        <!-- Features Section Starts -->
+        <h2 class="genel-baslik-2"></h2>
+        <div id="ozellikler" class="row">
+            <!-- Features will be loaded here -->
+        </div>
+        <!-- Features Section Ends -->
+
+        <!-- Reviews Section Starts -->
+        <h2 class="genel-baslik-2"></h2>
+        <div id="yorumlar" class="row yorum">
+            <!-- Reviews will be loaded here -->
+        </div>
+        <!-- Reviews Section Ends -->
+
+        <h2 class="genel-baslik-2"></h2>
+
+        <div class="scrollable-cards">
+            <!-- Similar models or any other data could be placed here -->
+        </div>
+    </div>
+
+    <my-footer></my-footer>
+
+    <!-- Gerekli JavaScript dosyalarını çağır -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+    <script src="../fetch/header.js" defer></script>
+    <script src="../fetch/footer.js" defer></script>
+    <script src="../fetch/testmodel.js" defer></script> <!-- Bu dosya, dinamik veriyi yükleyecek -->
+</body>
+</html>

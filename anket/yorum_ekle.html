@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title">Geri Bildirim Formu</title>
+  <link rel="stylesheet" href="nps.css">
+  <style>
+    /* Sayfa stili */
+    body {
+      display: block;
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Pop-up stili */
+    .popup {
+      display: none; /* Başlangıçta gizli */
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+    }
+    .popup-content {
+      background: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+    }
+    .popup-button, .submit-btn {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #2a5e68;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .popup-button:hover, .submit-btn:hover {
+      background-color: #1f4d55;
+    }
+
+    /* Checkbox stili */
+    .checkbox-group {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px; /* Seçenekler arası boşluk */
+    }
+    .checkbox-group label {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    .checkbox-group input[type="checkbox"] {
+      margin-right: 5px;
+    }
+
+    /* Radio buttonları checkbox gibi göster */
+    input[type="radio"] {
+      appearance: none; /* Varsayılan radio görünümünü kaldır */
+      width: 16px;
+      height: 16px;
+      border: 2px solid #2a5e68;
+      border-radius: 3px;
+      position: relative;
+      outline: none;
+      cursor: pointer;
+    }
+    input[type="radio"]:checked {
+      background-color: #2a5e68;
+    }
+
+    @media (max-width: 767px) {
+      .checkbox-group {
+        justify-content: space-between; /* Eşit aralık bırak */
+      }
+    }
+  </style>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const pageParam = urlParams.get('page');
+
+      if (pageParam) {
+          const pageTitle = document.getElementById('page-title');
+          const feedbackTitle = document.getElementById('feedback-title');
+          const decodedPage = decodeURIComponent(pageParam);
+
+          pageTitle.textContent = `Geri Bildirim Formu`;
+          feedbackTitle.textContent = `${decodedPage} Hakkında Düşüncelerini Paylaş!`;
+      }
+
+      const usedBeforeRadio = document.getElementsByName('used_before');
+      const durationFieldset = document.getElementById('duration-fieldset');
+
+      usedBeforeRadio.forEach(radio => {
+        radio.addEventListener('change', function() {
+          durationFieldset.style.display = this.value === 'yes' ? 'block' : 'none';
+        });
+      });
+
+      const checkboxes = document.querySelectorAll('input[name="duration"]');
+      checkboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+          if (this.checked) {
+            checkboxes.forEach(cb => {
+              if (cb !== this) cb.checked = false;
+            });
+          }
+        });
+      });
+
+      // Form gönderim işlemi
+      const form = document.getElementById('feedback-form');
+      form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Varsayılan gönderim işlemini durdur
+        const popup = document.getElementById('success-popup');
+        popup.style.display = 'flex'; // Pop-up'ı göster
+      });
+
+      const closeButton = document.getElementById('close-popup');
+      if (closeButton) {
+        closeButton.addEventListener('click', function() {
+          const popup = document.getElementById('success-popup');
+          popup.style.display = 'none'; // Pop-up'ı gizle
+        });
+      }
+    });
+  </script>
+</head>
+<body>
+  <form id="feedback-form" method="post" action="https://script.google.com/macros/s/AKfycbwCW_o7m5yBsSMgFFUd5F6c4BklTX40LOzy6981HOIcqpBhhurqlc3DjBgJPv_ZFBD7/exec" name="nps-form">
+    <h1 id="feedback-title"></h1>
+
+    <!-- Ad-Soyad Girişi -->
+    <legend for="name">Ad-Soyad:</legend>
+    <textarea id="name-surname" placeholder="Ad Soyad" name="name-surname" style="margin-bottom: 1rem;"></textarea>
+
+    <!-- Bu aracı daha önce kullandınız mı? -->
+    <fieldset>
+      <legend>Bu aracı daha önce kullandınız mı?</legend>
+      <label>
+        <input type="radio" name="used_before" value="yes"> Evet
+      </label>
+      <label>
+        <input type="radio" name="used_before" value="no"> Hayır
+      </label>
+    </fieldset>
+
+    <fieldset id="duration-fieldset" style="display: none;">
+      <legend style="margin-bottom: 10px;">Kullanım Süreniz Ne Kadar?:</legend>
+      <div class="checkbox-group">
+        <label>
+          <input type="checkbox" name="duration" value="Kısa Süreli"> Kısa Süreli
+        </label>
+        <label>
+          <input type="checkbox" name="duration" value="0-1 Yıl"> 0-1 Yıl
+        </label>
+        <label>
+          <input type="checkbox" name="duration" value="1-3 Yıl"> 1-3 Yıl
+        </label> 
+        <label>
+          <input type="checkbox" name="duration" value="3+ Yıl"> 3+ Yıl
+        </label>
+      </div>
+    </fieldset>
+    
+    <fieldset>
+      <legend id="dynamic-legend">Düşüncelerinizi Otomobil Severler ile Buluşturun!</legend>
+      <textarea placeholder="Yorumunuzu yazın" name="additional_thoughts"></textarea>
+    </fieldset>
+    <button type="submit" class="submit-btn">Gönder</button>
+  </form>
+
+
+  <!-- Success Pop-up -->
+  <div id="success-popup" class="popup hidden">
+    <div class="popup-content">
+      <h2>Teşekkürler!</h2>
+      <p>Geri bildiriminiz için teşekkür ederiz.</p>
+      <button id="google-review-button" class="submit-btn hidden">Bizi Google'da Değerlendir! ⭐️</button>
+      <div class="button-container">
+        <button id="tekrar-degerlendir" class="submit-btn">Araca Dön</button>
+        <button id="home-button" class="submit-btn">Ana Sayfa</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="yorum_ekle.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const pageParam = urlParams.get('page');
+    if (pageParam) {
+        const pageTitle = document.getElementById('page-title');
+        pageTitle.textContent = `Araç Puanlama - ${decodeURIComponent(pageParam)}`;
+    }
+    });
+  </script>
+  <!-- Önceki sayfayı saklama -->
+<script>
+    // Sayfa yüklendiğinde mevcut sayfayı sakla
+    document.addEventListener('DOMContentLoaded', function() {
+      localStorage.setItem('previousPage', document.referrer);
+    });
+  </script>
+  
+</body>
+</html>

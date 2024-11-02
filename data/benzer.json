@@ -1,0 +1,37 @@
+
+
+{
+"omoda_5" : ["omoda_5" , "tiggo_7_pro" , "focus" , "c4x" , "civic"],
+"tiggo_7_pro" : ["tiggo_7_pro" , "egea" , "tiggo_8_pro" , "c_serisi_w206" , "focus"],
+"tiggo_8_pro" : ["tiggo_8_pro" , "3008" , "sandero" , "polo" , "polo"],
+"c4x" : ["c4x" , "tucson" , "i20" , "bayon" , "tiguan"],
+"duster" : ["duster" , "tiggo_7_pro" , "focus" , "c4x" , "civic"],
+"sandero" : ["sandero" , "egea" , "tiggo_8_pro" , "c_serisi_w207" , "focus"],
+"egea" : ["egea" , "megane_4" , "sandero" , "polo" , "polo"],
+"egea_cross" : ["egea_cross" , "tucson" , "tiggo_8_pro" , "bayon" , "tiguan"],
+"focus" : ["polo" , "tiggo_7_pro" , "focus" , "c4x" , "civic"],
+"civic" : ["civic" , "egea" , "tiggo_8_pro" , "c_serisi_w208" , "focus"],
+"bayon" : ["bayon" , "i20" , "sandero" , "polo" , "polo"],
+"i20" : ["i20" , "tucson" , "i20" , "bayon" , "tiguan"],
+"tucson" : ["tucson" , "tiggo_7_pro" , "focus" , "c4x" , "civic"],
+"c_serisi_w206" : ["c_serisi_w206" , "egea" , "tiggo_8_pro" , "c_serisi_w209" , "focus"],
+"qasqai" : ["qasqai" , "sandero" , "sandero" , "polo" , "polo"],
+"corsa_f" : ["corsa_f" , "tucson" , "i20" , "bayon" , "tiguan"],
+"crossland" : ["crossland" , "tiggo_7_pro" , "focus" , "c4x" , "civic"],
+"mokka" : ["mokka" , "egea" , "tiggo_8_pro" , "c_serisi_w210" , "focus"],
+"408" : ["408" , "c4x" , "sandero" , "polo" , "polo"],
+"2008" : ["2008" , "tucson" , "i20" , "bayon" , "tiguan"],
+"3008" : ["3008" , "tiggo_7_pro" , "focus" , "c4x" , "civic"],
+"clio_5" : ["clio_5" , "egea" , "tiggo_8_pro" , "c_serisi_w211" , "focus"],
+"megane_4" : ["megane_4" , "tiggo_8_pro" , "sandero" , "polo" , "polo"],
+"megane_e_tech" : ["megane_e_tech" , "tucson" , "i20" , "bayon" , "tiguan"],
+"model_y" : ["model_y" , "tiggo_7_pro" , "focus" , "c4x" , "civic"],
+"t10x" : ["t10x" , "egea" , "tiggo_8_pro" , "c_serisi_w212" , "focus"],
+"corolla" : ["corolla" , "omoda_5" , "sandero" , "polo" , "polo"],
+"golf_8" : ["golf_8" , "tucson" , "i20" , "bayon" , "tiguan"],
+"passat_b8" : ["passat_b8" , "tiggo_7_pro" , "focus" , "c4x" , "civic"],
+"polo" : ["polo" , "egea_sedan" , "tiggo_8_pro" , "c4x" , "focus"],
+"t_roc" : ["t_roc" , "408" , "sandero" , "polo" , "polo"],
+"taigo" : ["taigo" , "tucson" , "i20" , "bayon" , "tiguan"]
+  }
+  

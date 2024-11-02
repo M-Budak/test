@@ -1,0 +1,584 @@
+{
+    "bmw": {
+    },
+        "toyota": {
+            "Sedan": [
+                {
+                    "name": "Toyota Corolla",
+                    "image": "../img/markalar/toyota/corolla.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/corolla.html?model=corolla"
+                }
+            ]
+        },
+        "renault": {
+            "Hatchback": [
+                {
+                    "name": "Renault Clio",
+                    "image": "../img/markalar/renault/clio5.png",
+                    "link": "https://m-budak.github.io/cargurue/model/clio5.html?model=clio5"
+                }
+            ],
+            "Sedan": [
+                {
+                    "name": "Renault Megane",
+                    "image": "../img/markalar/renault/megane4.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/megane4.html?model=megane4"
+                },
+                {
+                    "name": "Toyota Corolla",
+                    "image": "../img/markalar/toyota/corolla.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/corolla.html?model=corolla"
+                },
+                {
+                    "name": "Renault Taliant",
+                    "image": "../img/markalar/renault/taliant.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/taliant.html?model=taliant"
+                }
+            ],
+            "SUV": [
+                {
+                    "name": "Renault Captur",
+                    "image": "../img/markalar/renault/captur.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/captur.html?model=captur"
+                },
+                {
+                    "name": "Renault Austral",
+                    "image": "../img/markalar/renault/austral.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/austral.html?model=austral"
+                },
+                {
+                    "name": "Renault Duster",
+                    "image": "../img/markalar/renault/duster.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/duster.html?model=duster"
+                }
+            ],
+            "Elektrikli": [
+                {
+                    "name": "Renault Megane E-Tech",
+                    "image": "../img/markalar/renault/meganeetech.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/megane_e-tech.html?model=megane_e-tech"
+                }
+            ]
+        },
+        "fiat": {
+            "Sedan": [
+                {
+                    "name": "Fiat Egea Sedan",
+                    "image": "../img/markalar/fiat/egea.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/egea_sedan.html?model=egea_sedan"
+                }
+            ],
+            "Hatchback": [
+                {
+                    "name": "Fiat Egea Cross",
+                    "image": "../img/markalar/fiat/egeacross.webp",
+                    "link": "https://m-budak.github.io/cargurue/model/egea_cross.html?model=egea_cross"
+                }
+            ]
+        },
+        "opel": {
+            "Hatchback": [
+                {
+                    "name": "Corsa",
+                    "image": "../img/markalar/opel/corsa.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/corsa.html?model=corsa",
+                    "BadgeStatus": "hyb"
+                },
+                {
+                    "name": "Astra",
+                    "image": "../img/markalar/opel/astra.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/astra.html?model=astra",
+                "BadgeStatus": "soon"
+                },
+                {
+                    "name": "Mokka",
+                    "image": "../img/markalar/opel/mokka.webp",
+                    "link": "https://m-budak.github.io/cargurue/model/mokka.html?model=mokka",
+                    "BadgeStatus": "elk"
+                }
+            ],
+            "Elektrikli": [
+                {
+                    "name": "Corsa Elektrik",
+                    "image": "../img/markalar/opel/corsa_e.webp",
+                    "link": "https://m-budak.github.io/cargurue/model/corsa_elektrik.html?model=corsa_elektrik",
+                    "BadgeStatus": "new" 
+                },
+                {
+                    "name": "Astra Elektrik",
+                    "image": "../img/markalar/opel/astra_e.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/astra_elektrik.html?model=astra_elektrik",
+                    "BadgeStatus": "soon"
+                },
+                {
+                    "name": "Mokka Elektrik",
+                    "image": "../img/markalar/opel/mokka_e.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/mokka_elektrik.html?model=mokka_elektrik",
+                    "BadgeStatus": "soon"
+                }
+            ],
+            "SUV": [
+                {
+                    "name": "Crossland",
+                    "image": "../img/markalar/opel/crossland.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/crossland.html?model=crossland"
+                },
+                {
+                    "name": "Yeni Grandland",
+                    "image": "../img/markalar/opel/grandland.webp",
+                    "link": "https://m-budak.github.io/cargurue/model/yeni_grandland.html?model=yeni_grandland",
+                    "BadgeStatus": "soon"
+                },
+                {
+                    "name": "Yeni Frontera",
+                    "image": "../img/markalar/opel/frontera.webp",
+                    "link": "https://m-budak.github.io/cargurue/model/yeni_frontera.html?model=yeni_frontera",
+                    "BadgeStatus": "soon"
+                }
+            ]
+        },
+        "ford": {
+            "SUV": [
+                {
+                    "name": "Ford Kuga",
+                    "image": "../img/markalar/ford/kuga.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/kuga.html?model=kuga"
+                },
+                {
+                    "name": "Ford Puma",
+                    "image": "../img/markalar/ford/puma.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/puma.html?model=puma"
+                }
+            ],
+            "Sedan": [
+                {
+                    "name": "Ford Focus",
+                    "image": "../img/markalar/ford/focus.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/focus.html?model=focus"
+                },
+                {
+                    "name": "Ford Mustang",
+                    "image": "../img/markalar/ford/mustang.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/mustang.html?model=mustang"
+                }
+            ],
+            "Pick-Up": [
+                {
+                    "name": "Ford Ranger",
+                    "image": "../img/markalar/ford/ranger.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/ranger.html?model=ranger"
+                }
+            ]
+        },
+        "citroen": {
+            "Elektrikli": [
+                {
+                    "name": "Citroen Ami",
+                    "image": "../img/markalar/citroen/ami.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/ami.html?model=ami"
+                },
+                {
+                    "name": "Citroen C4 Elektrikli",
+                    "image": "../img/markalar/citroen/c4_elektrikli.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/c4_elektrikli.html?model=c4_elektrikli"
+                },
+                {
+                    "name": "Citroen C4X Elektrikli",
+                    "image": "../img/markalar/citroen/c4x_elektrikli.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/c4x_elektrikli.html?model=c4x_elektrikli"
+                }
+            ],
+            "Hatchback": [
+                {
+                    "name": "Citroen C3",
+                    "image": "../img/markalar/citroen/c3.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/c3.html?model=c3"
+                }
+            ],
+            "SUV": [
+                {
+                    "name": "Citroen C3 Aircross",
+                    "image": "../img/markalar/citroen/c3_aircross.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/c3_aircross.html?model=c3_aircross"
+                },
+                {
+                    "name": "Citroen C4",
+                    "image": "../img/markalar/citroen/c4.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/c4.html?model=c4"
+                },
+                {
+                    "name": "Citroen C4X",
+                    "image": "../img/markalar/citroen/c4x.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/c4x.html?model=c4x"
+                }
+            ]
+        },
+            "hyundai": {
+                "Hatchback": [
+                    {
+                        "name": "i10",
+                        "image": "../img/markalar/hyundai/i10.jpg",
+                        "link": "https://m-budak.github.io/cargurue/model/i10.html?model=i10"
+                    },
+                    {
+                        "name": "i20",
+                        "image": "../img/markalar/hyundai/i20.jpg",
+                        "link": "https://m-budak.github.io/cargurue/model/i20.html?model=i20"
+                    },
+                    {
+                        "name": "i20 N",
+                        "image": "../img/markalar/hyundai/i20_n.jpg",
+                        "link": "https://m-budak.github.io/cargurue/model/i20_n.html?model=i20_n"
+                    }
+                ],
+                "Sedan": [
+                    {
+                        "name": "ELANTRA",
+                        "image": "../img/markalar/hyundai/elantra.jpg",
+                        "link": "https://m-budak.github.io/cargurue/model/elantra.html?model=elantra"
+                    }
+                ],
+                "SUV": [
+                    {
+                        "name": "KONA N Line",
+                        "image": "../img/markalar/hyundai/kona_n_line.jpg",
+                        "link": "https://m-budak.github.io/cargurue/model/kona_n_line.html?model=kona_n_line"
+                    },
+                    {
+                        "name": "Yeni BAYON",
+                        "image": "../img/markalar/hyundai/bayon.jpg",
+                        "link": "https://m-budak.github.io/cargurue/model/bayon.html?model=bayon"
+                    },
+                    {
+                        "name": "KONA",
+                        "image": "../img/markalar/hyundai/kona.jpg",
+                        "link": "https://m-budak.github.io/cargurue/model/kona.html?model=kona"
+                    },
+                    {
+                        "name": "KONA Hibrit",
+                        "image": "../img/markalar/hyundai/kona_hibrit.jpg",
+                        "link": "https://m-budak.github.io/cargurue/model/kona_hibrit.html?model=kona_hibrit"
+                    },
+                    {
+                        "name": "Yeni TUCSON",
+                        "image": "../img/markalar/hyundai/tucson.jpg",
+                        "link": "https://m-budak.github.io/cargurue/model/tucson.html?model=tucson"
+                    },
+                    {
+                        "name": "SANTA FE Hibrit",
+                        "image": "../img/markalar/hyundai/santa_fe_hibrit.jpg",
+                        "link": "https://m-budak.github.io/cargurue/model/santa_fe_hibrit.html?model=/santa_fe_hibrit"
+                    }
+                ],
+                "Elektrikli": [
+                    {
+                        "name": "KONA Elektrik",
+                        "image": "../img/markalar/hyundai/kona_elektrik.jpg",
+                        "link": "https://m-budak.github.io/cargurue/model/kona_elektrik.html?model=kona_elektrik"
+                    },
+                    {
+                        "name": "IONIQ 5",
+                        "image": "../img/markalar/hyundai/ioniq_5.jpg",
+                        "link": "https://m-budak.github.io/cargurue/model/ioniq_5.html?model=ioniq_5"
+                    },
+                    {
+                        "name": "IONIQ 6",
+                        "image": "../img/markalar/hyundai/ioniq_6.jpg",
+                        "link": "https://m-budak.github.io/cargurue/model/ioniq_6.html?model=ioniq_6"
+                    }
+                ]
+            },    
+                "peugeot": {
+                    "Hatchback": [
+                        {
+                            "name": "208",
+                            "image": "../img/markalar/peugeot/208.jpg",
+                            "link": "https://m-budak.github.io/cargurue/model/208.html?model=208",
+                            "BadgeStatus": "soon"
+                        },
+                        {
+                            "name": "308",
+                            "image": "../img/markalar/peugeot/308.webp",
+                            "link": "https://m-budak.github.io/cargurue/model/308.html?model=308",
+                            "BadgeStatus": "soon"
+                        }
+                    ],
+                    "SUV": [
+                        {
+                            "name": "2008",
+                            "image": "../img/markalar/peugeot/2008.png",
+                            "link": "https://m-budak.github.io/cargurue/model/2008.html?model=2008"
+                        },
+                        {
+                            "name": "408",
+                            "image": "../img/markalar/peugeot/408.png",
+                            "link": "https://m-budak.github.io/cargurue/model/408.html?model=408"
+                        },
+                        {
+                            "name": "3008",
+                            "image": "../img/markalar/peugeot/3008.jpg",
+                            "link": "https://m-budak.github.io/cargurue/model/3008.html?model=3008"
+                        },
+                        {
+                            "name": "5008",
+                            "image": "../img/markalar/peugeot/5008.jpg",
+                            "link": "https://m-budak.github.io/cargurue/model/5008.html?model=5008",
+                            "BadgeStatus": "soon"
+                        }
+                    ],
+                    "Sedan": [
+                        {
+                            "name": "508",
+                            "image": "../img/markalar/peugeot/508.jpg",
+                            "link": "https://m-budak.github.io/cargurue/model/508.html?model=508",
+                            "BadgeStatus": "soon"
+                        }
+                    ]
+                },
+                    "volkswagen": {
+                        "Hatchback": [
+                            {
+                                "name": "Golf 8",
+                                "image": "../img/volkswagen/golf8.jpg",
+                                "link": "https://m-budak.github.io/cargurue/model/golf.html?model=golf"
+                            },
+                            {
+                                "name": "POLO (6. Nesil)",
+                                "image": "../img/volkswagen/polo6.jpg",
+                                "link": "https://m-budak.github.io/cargurue/model/polo.html?model=polo"
+                            }
+                        ],
+                        "Sedan": [
+                            {
+                                "name": "Passat B8",
+                                "image": "../img/volkswagen/passat.jpg",
+                                "link": "https://m-budak.github.io/cargurue/model/passat.html?model=passat"
+                            }
+                        ],
+                        "SUV": [
+                            {
+                                "name": "T ROC 1",
+                                "image": "../img/volkswagen/troc.jpg",
+                                "link": "https://m-budak.github.io/cargurue/model/t_roc.html?model=t_roc"
+                            },
+                            {
+                                "name": "TAIGO 1",
+                                "image": "../img/volkswagen/taigo.webp",
+                                "link": "https://m-budak.github.io/cargurue/model/taigo.html?model=taigo"
+                            },
+                            {
+                                "name": "TIGUAN 3",
+                                "image": "../img/volkswagen/tiguan.webp",
+                                "link": "https://m-budak.github.io/cargurue/model/tiguan.html?model=tiguan"
+                            }
+                        ]
+                    },            
+                "nissan": {
+                    "SUV": [
+                        {
+                            "name": "Juke",
+                            "image": "../img/markalar/nissan/juke.jpg",
+                            "link": "https://m-budak.github.io/cargurue/model/juke.html?model=juke",
+                            "BadgeStatus": "soon"
+                        },
+                        {
+                            "name": "Qasqai",
+                            "image": "../img/markalar/nissan/qasqai.webp",
+                            "link": "https://m-budak.github.io/cargurue/model/qasqai.html?model=qasqai"
+                        },
+                        {
+                            "name": "X-Trail",
+                            "image": "../img/markalar/nissan/x_trail.webp",
+                            "link": "https://m-budak.github.io/cargurue/model/x_trail.html?model=x_trail",
+                            "BadgeStatus": "soon"
+                        }
+                    ]
+                },
+                "dacia": {
+                    "SUV": [
+                        {
+                            "name": "Spring",
+                            "image": "../img/markalar/dacia/spring.jpg",
+                            "link": "https://m-budak.github.io/cargurue/model/spring.html?model=spring",
+                            "BadgeStatus": "soon"
+                        },
+                        {
+                            "name": "Duster",
+                            "image": "../img/markalar/dacia/duster.jpg",
+                            "link": "https://m-budak.github.io/cargurue/model/duster.html?model=duster"
+                        },
+                        {
+                            "name": "Sandero",
+                            "image": "../img/markalar/dacia/sandero.webp",
+                            "link": "https://m-budak.github.io/cargurue/model/sandero.html?model=sandero"
+                        }
+                    ]
+                },
+                "tesla": {
+                    "Elektrikli": [
+                        {
+                            "name": "Model Y",
+                            "image": "../img/markalar/tesla/modely.webp",
+                            "link": "https://m-budak.github.io/cargurue/model/model_y.html?model=model_y"
+                        }
+                    ]
+                },
+                "togg": {
+                    "Elektrikli": [
+                        {
+                            "name": "T10X",
+                            "image": "../img/markalar/togg/t10x.jpg",
+                            "link": "https://m-budak.github.io/cargurue/model/t10x.html?model=t10x"
+                        }
+                    ]
+                },
+                "mercedes-benz": {
+                    "Sedan": [
+                        {
+                            "name": "C Serisi",
+                            "image": "../img/markalar/mercedes-benz/cserisi.webp",
+                            "link": "https://m-budak.github.io/cargurue/model/c_serisi.html?model=c_serisi"
+                        }
+                    ]
+                },
+                "chery": {
+                    "SUV": [
+                        {
+                            "name": "Omoda 5",
+                            "image": "../img/markalar/chery/omoda6.jpg",
+                            "link": "https://m-budak.github.io/cargurue/model/omoda.html?model=omoda"
+                        },
+                        {
+                            "name": "Omoda 5 Pro",
+                            "image": "../img/markalar/chery/omoda_5_pro.jpg",
+                            "link": "https://m-budak.github.io/cargurue/model/omoda_5_pro.html?model=omoda_5_pro"
+                        },
+                        {
+                            "name": "Tiggo 7 Pro",
+                            "image": "../img/markalar/chery/tiggo_7_pro.jpg",
+                            "link": "https://m-budak.github.io/cargurue/model/tiggo_7_pro.html?model=tiggo_7_pro"
+                        },
+                        {
+                            "name": "Tiggo 7 Pro Max",
+                            "image": "../img/markalar/chery/tiggo_7_pro_max.jpg",
+                            "link": "https://m-budak.github.io/cargurue/model/tiggo_7_pro_max.html?model=tiggo_7_pro_max"
+                        },
+                        {
+                            "name": "Tiggo 8 Pro",
+                            "image": "../img/markalar/chery/tiggo8pro.jpg",
+                            "link": "https://m-budak.github.io/cargurue/model/tiggo_8_pro.html?model=tiggo_8_pro"
+                        },
+                        {
+                            "name": "Tiggo 8 Pro Max",
+                            "image": "../img/markalar/chery/tiggo_8_pro_max.jpg",
+                            "link": "https://m-budak.github.io/cargurue/model/tiggo_8_pro_max.html?model=tiggo_8_pro_max"
+                        }
+                    ]
+                },
+                "honda": {
+        "Sedan": [
+            {
+                "name": "Civic",
+                "image": "../img/markalar/honda/civic.jpg",
+                "link": "https://m-budak.github.io/cargurue/model/civic.html?model=civic"
+            },
+            {
+                "name": "Accord",
+                "image": "../img/markalar/honda/accord.jpg",
+                "link": "https://m-budak.github.io/cargurue/model/accord.html?model=accord"
+            },
+            {
+                "name": "City",
+                "image": "../img/markalar/honda/city.jpg",
+                "link": "https://m-budak.github.io/cargurue/model/city.html?model=city"
+            }
+        ],
+        "SUV": [
+            {
+                "name": "CR-V",
+                "image": "../img/markalar/honda/cr_v.jpg",
+                "link": "https://m-budak.github.io/cargurue/model/cr_v.html?model=cr_v"
+            }
+        ]
+    },
+    "audi": {
+        "Sedan": [
+            {
+                "name": "A3 Sedan",
+                "image": "../img/markalar/citroen/a3_sedan.jpg",
+                "link": "https://m-budak.github.io/cargurue/model/a3_sedan.html?model=a3_sedan"
+            }
+        ],
+        "Hatchback": [
+            {
+                "name": "A3",
+                "image": "../img/markalar/citroen/a3.jpg",
+                "link": "https://m-budak.github.io/cargurue/model/a3.html?model=a3"
+            }
+        ],
+        "SUV": [
+            {
+                "name": "Q2",
+                "image": "../img/markalar/citroen/q2.jpg",
+                "link": "https://m-budak.github.io/cargurue/model/q2.html?model=q2"
+            }
+        ]
+    },
+        "kia": {
+            "Hatchback": [
+                {
+                    "name": "Yeni Picanto",
+                    "image": "../img/kia/yeni_picanto.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/yeni_picanto.html?model=yeni_picanto"
+                }
+            ],
+            "SUV": [
+                {
+                    "name": "Stonic",
+                    "image": "../img/kia/stonic.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/stonic.html?model=stonic"
+                },
+                {
+                    "name": "Sportage",
+                    "image": "../img/kia/sportage.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/sportage.html?model=sportage"
+                },
+                {
+                    "name": "Sorento",
+                    "image": "../img/kia/sorento.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/sorento.html?model=sorento"
+                }
+            ]
+        },
+        "volvo": {
+            "SUV": [
+                {
+                    "name": "XC90",
+                    "image": "../img/volvo/xc90.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/xc90.html?model=xc90"
+                },
+                {
+                    "name": "XC60",
+                    "image": "../img/volvo/xc60.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/xc60.html?model=xc60"
+                },
+                {
+                    "name": "XC40",
+                    "image": "../img/volvo/xc40.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/xc40.html?model=xc40"
+                }
+            ],
+            "Sedan": [
+                {
+                    "name": "S90",
+                    "image": "../img/volvo/s90.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/s90.html?model=s90"
+                },
+                {
+                    "name": "S60",
+                    "image": "../img/volvo/s60.jpg",
+                    "link": "https://m-budak.github.io/cargurue/model/s60.html?model=s60"
+                }
+            ]
+        }
+    }

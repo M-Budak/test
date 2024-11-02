@@ -12,11 +12,11 @@ class MyHeader extends HTMLElement {
                 </div>
                 <nav class="menu" id="sideMenu">
                     <ul id="menuList">
-                        <li><a href="../arac-yorumu/markalar.html">Marka</a></li>
-                        <li><a href="../arac-yorumu/kasa.html">Kasa</a></li>
-                        <li><a href="../arac-yorumu/yakit.html">Yakıt</a></li>
-                        <li><a href="../arac-yorumu/segment.html">Segment</a></li>
-                        <li><a href="../arac-yorumu/modeller.html">Model</a></li>
+                        <li><a href="../markalar">Marka</a></li>
+                        <li><a href="../kasa">Kasa</a></li>
+                        <li><a href="../yakit">Yakıt</a></li>
+                        <li><a href="../segment">Segment</a></li>
+                        <li><a href="../model">Model</a></li>
                     </ul>
                 </nav>
                 <div class="overlay" id="menuOverlay"></div>
@@ -24,7 +24,7 @@ class MyHeader extends HTMLElement {
         `;
 
 
-        // bunu ekle <li class="highlight"><a href="arac-yorumu/bizbize.html">Biz Bize</a></li>
+        // bunu ekle <li class="highlight"><a href="bizbize.html">Biz Bize</a></li>
         
         const hamburger = document.getElementById('hamburgerMenu');
         const sideMenu = document.getElementById('sideMenu');

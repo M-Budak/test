@@ -72,26 +72,26 @@ class MyFooter extends HTMLElement {
                                         <li><a href="../kasa/panelvan.html">Panelvan</a></li>
                                         <li><a href="../kasa/micro.html">Micro</a></li>
                                     </div>
-                                    <div class="col-6 col-md-12.html">
+                                    <div class="col-6 col-md-12">
                                         <li><a href="../yakit/benzinli.html">Benzinli</a></li>
                                         <li><a href="../yakit/dizel.html">Dizel</a></li>
                                         <li><a href="../yakit/lpg.html">LPG</a></li>
                                         <li><a href="../yakit/Elektrikli.html">Elektrikli</a></li>
                                         <li><a href="../yakit/hibrit.html">Hibrit</a></li>
-                                        <li><a href="../segments/a-segment.html">A Segment</a></li>
-                                        <li><a href="../segments/b-segment.html">B Segment</a></li>
-                                        <li><a href="../segments/c-segment.html">C Segment</a></li>
-                                        <li><a href="../segments/d-segment.html">D Segment</a></li>
-                                        <li><a href="../segments/f-segment.html">F Segment</a></li>
-                                        <li><a href="../segments/m-segment.html">M Segment</a></li>
-                                        <li><a href="../segments/j-segment.html">J Segment</a></li>
+                                        <li><a href="../segment/a-segment.html">A Segment</a></li>
+                                        <li><a href="../segment/b-segment.html">B Segment</a></li>
+                                        <li><a href="../segment/c-segment.html">C Segment</a></li>
+                                        <li><a href="../segment/d-segment.html">D Segment</a></li>
+                                        <li><a href="../segment/f-segment.html">F Segment</a></li>
+                                        <li><a href="../segment/m-segment.html">M Segment</a></li>
+                                        <li><a href="../segment/j-segment.html">J Segment</a></li>
                                     </div>
                                 </div>
                             </ul>
                         </div>
                         
                         <div class="col-sm-12 col-md-2 mt-3">
-                            <a href="../arac-yorumu/modeller.html">
+                            <a href="../model">
                                 <h5 class="column-title">Modeller</h5>
                             </a>
                             <ul class="list-unstyled">
@@ -123,45 +123,45 @@ class MyFooter extends HTMLElement {
                                         <li><a href="../model/crossland.html?model=crossland">Opel Crossland</a></li>
                                         <li><a href="../model/egea-cross.html?model=egea-cross">Fiat Egea Cross</a></li>
                                         <li><a href="../model/3008.html?model=3008">Peugeot 3008</a></li>
-                                        <li><a href="../arac-yorumu/modeller.html">Tümü ></a></li>
+                                        <li><a href="../model">Tümü ></a></li>
                                     </div>
                                 </div>
                             </ul>
                         </div>
                         
                         <div class="col-sm-12 col-md-2 mt-3">
-                            <a href="../arac-yorumu/markalar.html">
+                            <a href="../marka">
                                 <h5 class="column-title">Markalar</h5>
                             </a>
                             <ul class="list-unstyled">
                                 <div class="row">
                                     <div class="col-6 col-md-12">
-                                        <li><a href="../markalar/audi.html?brand=audi">Audi</a></li>
-                                        <li><a href="../markalar/bmw.html?brand=bmw">BMW</a></li>
-                                        <li><a href="../markalar/chery.html?brand=chery">Chery</a></li>
-                                        <li><a href="../markalar/citroen.html?brand=citroen">Citroen</a></li>
-                                        <li><a href="../markalar/dacia.html?brand=dacia">Dacia</a></li>
-                                        <li><a href="../markalar/cupra.html?brand=cupra">Cupra</a></li>
-                                        <li><a href="../markalar/mg.html?brand=mg">MG</a></li>
-                                        <li><a href="../markalar/fiat.html?brand=fiat">Fiat</a></li>
-                                        <li><a href="../markalar/ford.html?brand=ford">Ford</a></li>
-                                        <li><a href="../markalar/honda.html?brand=honda">Honda</a></li>
-                                        <li><a href="../markalar/hyundai.html?brand=hyundai">Hyundai</a></li>
-                                        <li><a href="../markalar/kia.html?brand=kia">Kia</a></li>
+                                        <li><a href="../marka/audi.html?brand=audi">Audi</a></li>
+                                        <li><a href="../marka/bmw.html?brand=bmw">BMW</a></li>
+                                        <li><a href="../marka/chery.html?brand=chery">Chery</a></li>
+                                        <li><a href="../marka/citroen.html?brand=citroen">Citroen</a></li>
+                                        <li><a href="../marka/dacia.html?brand=dacia">Dacia</a></li>
+                                        <li><a href="../marka/cupra.html?brand=cupra">Cupra</a></li>
+                                        <li><a href="../marka/mg.html?brand=mg">MG</a></li>
+                                        <li><a href="../marka/fiat.html?brand=fiat">Fiat</a></li>
+                                        <li><a href="../marka/ford.html?brand=ford">Ford</a></li>
+                                        <li><a href="../marka/honda.html?brand=honda">Honda</a></li>
+                                        <li><a href="../marka/hyundai.html?brand=hyundai">Hyundai</a></li>
+                                        <li><a href="../marka/kia.html?brand=kia">Kia</a></li>
                                     </div>
                                     <div class="col-6 col-md-12">
-                                        <li><a href="../markalar/mercedes-benz.html?brand=mercedes-benz">Mercedes-Benz</a></li>
-                                        <li><a href="../markalar/nissan.html?brand=nissan">Nissan</a></li>
-                                        <li><a href="../markalar/opel.html?brand=opel">Opel</a></li>
-                                        <li><a href="../markalar/peugeot.html?brand=peugeot">Peugeot</a></li>
-                                        <li><a href="../markalar/renault.html?brand=renault">Renault</a></li>
-                                        <li><a href="../markalar/skoda.html?brand=skoda">Skoda</a></li>
-                                        <li><a href="../markalar/tesla.html?brand=tesla">Tesla</a></li>
-                                        <li><a href="../markalar/togg.html?brand=togg">Togg</a></li>
-                                        <li><a href="../markalar/toyota.html?brand=toyota">Toyota</a></li>
-                                        <li><a href="../markalar/volkswagen.html?brand=volkswagen">Volkswagen</a></li>
-                                        <li><a href="../markalar/volvo.html?brand=volvo">Volvo</a></li>
-                                        <li><a href="../arac-yorumu/markalar.html">Tümü ></a></li>
+                                        <li><a href="../marka/mercedes-benz.html?brand=mercedes-benz">Mercedes-Benz</a></li>
+                                        <li><a href="../marka/nissan.html?brand=nissan">Nissan</a></li>
+                                        <li><a href="../marka/opel.html?brand=opel">Opel</a></li>
+                                        <li><a href="../marka/peugeot.html?brand=peugeot">Peugeot</a></li>
+                                        <li><a href="../marka/renault.html?brand=renault">Renault</a></li>
+                                        <li><a href="../marka/skoda.html?brand=skoda">Skoda</a></li>
+                                        <li><a href="../marka/tesla.html?brand=tesla">Tesla</a></li>
+                                        <li><a href="../marka/togg.html?brand=togg">Togg</a></li>
+                                        <li><a href="../marka/toyota.html?brand=toyota">Toyota</a></li>
+                                        <li><a href="../marka/volkswagen.html?brand=volkswagen">Volkswagen</a></li>
+                                        <li><a href="../marka/volvo.html?brand=volvo">Volvo</a></li>
+                                        <li><a href="../marka">Tümü ></a></li>
                                     </div>
                                 </div>
                             </ul>
@@ -185,7 +185,7 @@ customElements.define('my-footer', MyFooter);
 
 // boşluğa haberler kısmını  ekle 
 // <div class="col-sm-12 col-md-2 mt-3 footer_haberler">
-//     <a href="../arac-yorumu/bizbize.html">
+//     <a href="bizbize.html">
 //         <h5 class="column-title">Araç Yorumu Biz Bize</h5>
 //     </a>
 //     <ul class="list-unstyled">

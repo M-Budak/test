@@ -113,7 +113,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <h2 class="skor-baslik">Skor</h2>
                         <p class="skor-bilgi" style="margin-bottom: 0.5rem;">Bu sonuçlar kullanıcılar tarafından verilen puanların ortalamasıdır.</p>
                         <!-- Burada engineId yerine uniqueData kullanılıyor -->
-                        <a href="../puan_ver.html?page=${encodeURIComponent(uniqueData)}" class="btn btn-custom oy-ver-btn" style="margin-bottom: 1rem; padding: 0rem; width: 8rem;">Puan Ver ⭐️</a>
+                        <a href="../anket/puan_ver.html?page=${encodeURIComponent(uniqueData)}" class="btn btn-custom oy-ver-btn" style="margin-bottom: 1rem; padding: 0rem; width: 8rem;">Puan Ver ⭐️</a>
                     </div>
                     <div class="skor col-6">
                         <p>
@@ -223,7 +223,7 @@ function setAddCommentButton(addCommentButton, engineCode) {
         .then(nameIdData => {
             const name = nameIdData[engineCode];
             if (name) {
-                addCommentButton.href = `../yorum_ekle.html?page=${encodeURIComponent(name)}`;
+                addCommentButton.href = `../anket/yorum_ekle.html?page=${encodeURIComponent(name)}`;
             } else {
                 console.error('ID için bir name bulunamadı.');
             }

@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     homeButton.addEventListener('click', function() {
-        window.location.href = 'https://m-budak.github.io/cargurue'; // Ana sayfa URL'sini burada belirtin
+        window.location.href = 'https://aracyorumu.com'; // Ana sayfa URL'sini burada belirtin
     });
 
     reviewButton.addEventListener('click', function() {

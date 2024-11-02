@@ -13,13 +13,13 @@
   <script src="../fetch/body.js"></script>
   <script src="../fetch/header.js" defer></script>
   <script src="../fetch/footer.js" defer></script>
-    <title>Document</title>
+    <title>Araç Yakıt Türleri | OtoVivo</title>
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
     <my-header></my-header>
     
     <div class="carbody container">  
-        <h1 class="genel-baslik-1 mt-2">Araç Kasa Tipleri</h1>
+        <h1 class="genel-baslik-1 mt-2">Araç Yakıt Türleri</h1>
     
         <nav id="navbar-example2" class="navbar bg-body-white mb-3 sticky-top">
             <ul class="nav nav-pills">
@@ -80,7 +80,7 @@
             </section>
         </div>
     
-        <h2 class="genel-baslik-2">Popüler Otomobil Markaları</h2>
+        <h2 class="genel-baslik-2">Otomobil Markaları</h2>
         <div class="row row-cols-3 row-cols-md-6 g-4 mt-3">
           <div class="brand">
             <a href="../markalar/peugeot.html?brand=peugeot" class="brand-link"> 
@@ -144,8 +144,11 @@
           </div>
       </div>
     
-      <!-- brand modal'a tıklayınca tüm görseller gidiyor o yüzden yoruma aldım  -->
-        <!-- <brand-modal></brand-modal>  -->
+      <a href="../marka/" style="text-decoration: none;">
+        <div class="seen" data-bs-toggle="modal" data-bs-target="#exampleModal" style="display: flex; align-items: center; justify-content: center; margin: 0.7rem;">
+            Tümünü Göster >
+        </div>
+    </a>
 
     <script src="../fetch/brand_modal.js"></script>
     <script src="../fetch/testdata.js"></script>

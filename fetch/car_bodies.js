@@ -11,7 +11,7 @@ class CarBodies extends HTMLElement {
       </a>
       <div class="row row-cols-3 g-4 mt-3" style="padding: 0px 12px 10px 12px; justify-content: flex-start;">
           <div class="brand">
-              <a href="kasa/sedan.html" class="brand-link">
+              <a href="../kasa/sedan.html" class="brand-link">
                 <div class="card">
                       <div class="home-card-body">
                           <h5 class="home-text-brand">Sedan</h5>
@@ -20,7 +20,7 @@ class CarBodies extends HTMLElement {
               </a>
           </div>
           <div class="brand">
-              <a href="kasa/hatchback.html" class="brand-link"> 
+              <a href="../kasa/hatchback.html" class="brand-link"> 
                   <div class="card">
                       <div class="home-card-body">
                           <h5 class="home-text-brand">Hatchback</h5>
@@ -29,7 +29,7 @@ class CarBodies extends HTMLElement {
               </a>
           </div>
           <div class="brand kasa-card">
-              <a href="kasa/suv.html" class="brand-link"> 
+              <a href="../kasa/suv.html" class="brand-link"> 
                   <div class="card">
                       <div class="home-card-body">
                           <h5 class="home-text-brand">SUV</h5>
@@ -38,7 +38,7 @@ class CarBodies extends HTMLElement {
               </a>
           </div>
           <div class="brand kasa-card">
-              <a href="kasa/pickup.html" class="brand-link"> 
+              <a href="../kasa/pickup.html" class="brand-link"> 
                   <div class="card">
                       <div class="home-card-body">
                           <h5 class="home-text-brand">Pick-Up</h5>
@@ -47,7 +47,7 @@ class CarBodies extends HTMLElement {
               </a>
           </div>
           <div class="brand kasa-card">
-              <a href="kasa/spor-otomobiller.html" class="brand-link"> 
+              <a href="../kasa/spor-otomobiller.html" class="brand-link"> 
                   <div class="card">
                       <div class="home-card-body">
                           <h5 class="home-text-brand">Spor</h5>
@@ -56,7 +56,7 @@ class CarBodies extends HTMLElement {
               </a>
           </div>
           <div class="brand kasa-card">
-              <a href="kasa/ticari.html" class="brand-link"> 
+              <a href="../kasa/ticari.html" class="brand-link"> 
                   <div class="card">
                       <div class="home-card-body">
                           <h5 class="home-text-brand">Ticari</h5>

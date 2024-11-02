@@ -854,6 +854,7 @@ a, a:visited, a:focus, a:active a:hover {
 
 .six-brand-img{
     width: 50%;
+    height: auto;
     display: block;
     text-align: center;
     margin: auto;

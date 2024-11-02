@@ -28,8 +28,6 @@ fetch('../data/testdata.json')
                             </div>
                         </div>
                     `;
-                    
-
                     // Kartı container'a ekle
                     container.appendChild(card);
                 }

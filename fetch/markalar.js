@@ -7,7 +7,13 @@ document.addEventListener("DOMContentLoaded", function() {
         return;
     }
 
-    document.querySelector('h1.genel-baslik-1').textContent = `${brand.charAt(0).toUpperCase() + brand.slice(1)} Otomobiller`;
+    // Capitalize the first letter of the brand and update the h1
+    const formattedBrand = `${brand.charAt(0).toUpperCase() + brand.slice(1)}`; // Brand only for h1
+    document.querySelector('h1.genel-baslik-1').textContent = `${formattedBrand} Otomobiller`; // Update the <h1> with "Otomobiller"
+
+    // Update the document title with " | OtoVivo" (without "Otomobiller")
+    document.title = `${formattedBrand} | OtoVivo`;
+
 
     fetch('../data/testdata.json')
         .then(response => response.json())

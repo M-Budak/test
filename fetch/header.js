@@ -12,7 +12,7 @@ class MyHeader extends HTMLElement {
                 </div>
                 <nav class="menu" id="sideMenu">
                     <ul id="menuList">
-                        <li><a href="../markalar">Marka</a></li>
+                        <li><a href="../marka">Marka</a></li>
                         <li><a href="../kasa">Kasa</a></li>
                         <li><a href="../yakit">Yakıt</a></li>
                         <li><a href="../segment">Segment</a></li>

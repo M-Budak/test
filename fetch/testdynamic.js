@@ -9,7 +9,11 @@ document.addEventListener("DOMContentLoaded", function() {
             const modelData = Object.values(data).find(model => model.slug === slug);
 
             if (modelData) {
-                document.querySelector('.genel-baslik-1').textContent = `${modelData.brand} ${modelData.model}`;
+                const titleText = `${modelData.brand} ${modelData.model}`; // Store the title text
+    
+                document.querySelector('.genel-baslik-1').textContent = titleText; // Set the heading
+                document.title = titleText; // Update the document title
+    
                 document.querySelector('.description').textContent = modelData.desc;
 
                 const imgElement = document.querySelector('.img-fluid');

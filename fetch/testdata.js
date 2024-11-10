@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const params = new URLSearchParams(window.location.search);
     const brand = params.get('brand');
 
-    fetch('./data/testdata.json') // Yolun doğruluğundan emin olun
+    fetch('./data/data.json') // Yolun doğruluğundan emin olun
         .then(response => {
             if (!response.ok) {
                 throw new Error('Network response was not ok ' + response.statusText);

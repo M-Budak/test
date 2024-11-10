@@ -1,5 +1,5 @@
 // JSON dosyasını çek
-fetch('../data/testdata.json')
+fetch('../data/data.json')
     .then(response => response.json())
     .then(data => {
         // Her section'daki container'ları toplu olarak seç

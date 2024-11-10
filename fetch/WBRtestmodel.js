@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const slugParam = urlParams.get('model');
 
     // Verileri çekeceğimiz JSON dosyalarının yolları
-    const dataUrl = '../data/testdata.json';
+    const dataUrl = '../data/data.json';
     const motorUrl = '../data/testmotor.json';
 
     // Verileri çek

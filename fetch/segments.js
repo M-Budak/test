@@ -8,8 +8,8 @@ class Segments extends HTMLElement {
   render() {
       this.innerHTML = `
       <div class="background-wrapper">
-      <a href="arac-yorumu/segment.html">
-        <h2 class="genel-baslik-2" style="margin-top:12px; padding:0px 0px 0px 12px; color: white;">Segmentler</h2>
+      <a href="/segment/">
+        <h2 class="genel-baslik-2" style="margin-top:12px; padding:0px 0px 0px 12px; color: white;">Otomobil Segmentleri</h2>
           </a>
             <div class="row row-cols-2 g-4 mt-3" style="padding: 0px 12px 10px 12px; justify-content: flex-start;">
               <div class="brand">

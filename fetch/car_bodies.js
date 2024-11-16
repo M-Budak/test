@@ -6,8 +6,8 @@ class CarBodies extends HTMLElement {
   render() {
       this.innerHTML = `
       <div class="background-wrapper">
-      <a href="arac-yorumu/kasa.html">
-          <h2 class="genel-baslik-2" style="margin-top:12px; padding:0px 0px 0px 12px; color: white;">Kasa Tipleri</h2>
+      <a href="/kasa/">
+          <h2 class="genel-baslik-2" style="margin-top:12px; padding:0px 0px 0px 12px; color: white;">Kasa Tiplerine Göre Otomobiller</h2>
       </a>
       <div class="row row-cols-3 g-4 mt-3" style="padding: 0px 12px 10px 12px; justify-content: flex-start;">
           <div class="brand">

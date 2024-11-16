@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Elektrikli araçlarla sıfır emisyon ve yüksek performansı keşfedin. Çevre dostu seçenekler ve kullanıcı yorumlarıyla seçim yapın.">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -13,14 +14,16 @@
     <script src="../fetch/body.js"></script>
     <script src="../fetch/header.js" defer></script>
     <script src="../fetch/footer.js" defer></script>
-    <title>Document</title>
+    <title>Elektrikli Araçlar | Sıfır Emisyon ve Yüksek Performans</title>
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
     <my-header></my-header>
     
     <div class="carbody container">  
-        <h1 class="genel-baslik-1 mt-2">Elektrikli Modeller</h1>
-    
+        <h1 class="genel-baslik-1 mt-2">Elektrikli Otomobil Modelleri</h1>
+        <p class="description">
+            Elektrikli araçlar, sıfır emisyonlu sürüşleri, düşük işletme maliyetleri ve ileri teknoloji özellikleriyle geleceğin otomobilleri olarak öne çıkar. Otovivo’da elektrikli araçlar hakkında detaylı bilgiler, kullanıcı puanları ve yorumlar bulabilirsiniz. Elektrikli araçlar, sıfır emisyonlu sürüş, sessiz çalışma ve düşük bakım gereksinimi ile çevre dostu sürücüler için mükemmel bir seçenek sunar.
+        </p>
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -25%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
             <!-- Sedan Modeller -->
             <div class="row" id="given-ids" data-model-ids="BMBSHBF4,HNCVSE11,PE48HB1N,CT4XHB1N"></div>
@@ -28,10 +31,112 @@
             <h2 class="genel-baslik-2">Otomobil Markaları</h2>
             <div class="row row-cols-3 row-cols-md-6 g-4 mt-3"></div> -->
         </div>
-    </div>
     
+    <section id="faq">
+        <h2>Elektrikli Araba Modelleri Hakkında Sık Sorulan Sorular</h2>
+        <!-- FAQ 1 -->
+        <div class="accordion-item">
+          <h3 class="accordion">
+            Elektrikli arabaların avantajları nelerdir?
+          </h3>
+          <div class="panel">
+            <p>Elektrikli arabalar çevre dostu, düşük işletme maliyetine sahip, sessiz çalışır ve vergi avantajları sunar.</p>
+          </div>
+        </div>
+      
+        <!-- FAQ 2 -->
+        <div class="accordion-item">
+          <h3 class="accordion">
+            Elektrikli arabalar ne kadar süre şarj edilir?
+          </h3>
+          <div class="panel">
+            <p>Şarj süresi, batarya kapasitesine ve şarj cihazına bağlıdır. Evde 8-12 saat, hızlı şarj istasyonlarında 30-60 dakika sürebilir.</p>
+          </div>
+        </div>
+      
+        <!-- FAQ 3 -->
+        <div class="accordion-item">
+          <h3 class="accordion">
+            Elektrikli arabalar uzun yolculuklar için uygun mu?
+          </h3>
+          <div class="panel">
+            <p>Evet, ancak planlama gerektirir. Menzilleri 300-600 km arasında değişir ve şarj istasyonları planlanmalıdır.</p>
+          </div>
+        </div>
+      
+        <!-- FAQ 4 -->
+        <div class="accordion-item">
+          <h3 class="accordion">
+            Elektrikli araba modelleri arasındaki farklar nelerdir?
+          </h3>
+          <div class="panel">
+            <p>Modeller arasında batarya kapasitesi, motor gücü, donanım ve teknoloji gibi özelliklerde farklılıklar bulunur.</p>
+          </div>
+        </div>
+      
+        <!-- FAQ 5 -->
+        <div class="accordion-item">
+          <h3 class="accordion">
+            Türkiye’de elektrikli araç şarj istasyonları yaygın mı?
+          </h3>
+          <div class="panel">
+            <p>Türkiye’de şarj istasyonları hızla artmaktadır. Büyük şehirlerde ve otoyollarda kolayca erişilebilir durumdadır.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- FAQ Schema Markup -->
+      <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Elektrikli arabaların avantajları nelerdir?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Elektrikli arabalar çevre dostu, düşük işletme maliyetine sahip, sessiz çalışır ve vergi avantajları sunar."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Elektrikli arabalar ne kadar süre şarj edilir?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Şarj süresi, batarya kapasitesine ve şarj cihazına bağlıdır. Evde 8-12 saat, hızlı şarj istasyonlarında 30-60 dakika sürebilir."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Elektrikli arabalar uzun yolculuklar için uygun mu?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Evet, ancak planlama gerektirir. Menzilleri 300-600 km arasında değişir ve şarj istasyonları planlanmalıdır."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Elektrikli araba modelleri arasındaki farklar nelerdir?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Modeller arasında batarya kapasitesi, motor gücü, donanım ve teknoloji gibi özelliklerde farklılıklar bulunur."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Türkiye’de elektrikli araç şarj istasyonları yaygın mı?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Türkiye’de şarj istasyonları hızla artmaktadır. Büyük şehirlerde ve otoyollarda kolayca erişilebilir durumdadır."
+            }
+          }
+        ]
+      }
+      </script>
+      
+
     <my-footer></my-footer>
-    
     
     <!-- Bootstrap JavaScript Dosyaları -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4JQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

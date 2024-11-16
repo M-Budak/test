@@ -33,5 +33,23 @@ fetch('../data/data.json')
                 }
             });
         });
+
+        // Select all accordion buttons
+        const accordions = document.querySelectorAll('.accordion');
+
+        accordions.forEach((accordion) => {
+        accordion.addEventListener('click', function () {
+            // Toggle "active" class on the clicked accordion
+            this.classList.toggle('active');
+
+            // Toggle the visibility of the associated panel
+            const panel = this.nextElementSibling;
+            if (panel.style.display === 'block') {
+            panel.style.display = 'none';
+            } else {
+            panel.style.display = 'block';
+            }
+        });
+        });
     })
     .catch(error => console.error('Error fetching data:', error));

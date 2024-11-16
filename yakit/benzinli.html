@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Benzinli araçlar hakkında detaylı incelemeler, güçlü performans ve yakıt verimliliği ile kullanıcı yorumları. Farklı modelleri keşfedin ve puanlayın.">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -13,14 +14,16 @@
     <script src="../fetch/body.js"></script>
     <script src="../fetch/header.js" defer></script>
     <script src="../fetch/footer.js" defer></script>
-    <title>Document</title>
+    <title>Benzinli Araçlar: Performans, Ekonomi ve Kullanıcı Yorumları</title>
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
     <my-header></my-header>
     
     <div class="carbody container">  
-        <h1 class="genel-baslik-1 mt-2">Benzinli Modeller</h1>
-    
+        <h1 class="genel-baslik-1 mt-2">Benzinli Otomobil Modelleri</h1>
+        <p class="description">
+            Benzinli araçlar, güçlü performansları ve geniş model seçenekleriyle sürücüler için popüler tercihler arasında yer alır. Otovivo’da benzinli araçlar hakkında detaylı özellikler, kullanıcı puanları ve yorumlar bulabilirsiniz. Benzinli motorlar, genellikle hızlı hızlanma, iyi yakıt verimliliği ve düşük bakım maliyetleri ile avantaj sunar. Benzinli araçlar, şehir içi ve uzun yolculuklar için mükemmel bir seçenek olabilir.
+        </p>
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -25%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
             <!-- Sedan Modeller -->
             <div class="row" id="given-ids" data-model-ids="BMBSHBF4,HNCVSE11,PE48HB1N,CT4XHB1N"></div>
@@ -28,7 +31,109 @@
             <h2 class="genel-baslik-2">Otomobil Markaları</h2>
             <div class="row row-cols-3 row-cols-md-6 g-4 mt-3"></div> -->
         </div>
+    <section id="faq">
+        <h2>Benzinli Araba Modelleri Hakkında Sık Sorulan Sorular</h2>
+        <!-- FAQ 1 -->
+        <div class="accordion-item">
+            <h3 class="accordion">
+                Benzinli arabaların avantajları nelerdir?
+            </h3>
+            <div class="panel">
+                <p>Benzinli arabalar genellikle daha düşük başlangıç maliyetine sahiptir, yakıt temini kolaydır ve uzun menzil sunar.</p>
+            </div>
+        </div>
+    
+        <!-- FAQ 2 -->
+        <div class="accordion-item">
+            <h3 class="accordion">
+                Benzinli arabalar ne kadar yakıt tüketir?
+            </h3>
+            <div class="panel">
+                <p>Yakit tüketimi araç modeline ve sürüş koşullarına bağlıdır. Ortalama olarak benzinli arabalar 100 km'de 6-10 litre arasında yakıt tüketebilir.</p>
+            </div>
+        </div>
+    
+        <!-- FAQ 3 -->
+        <div class="accordion-item">
+            <h3 class="accordion">
+                Benzinli araba modelleri arasındaki farklar nelerdir?
+            </h3>
+            <div class="panel">
+                <p>Farklar, motor gücü, yakıt verimliliği, iç mekan donanımı, güvenlik özellikleri ve sürüş teknolojileri gibi unsurlarda bulunabilir.</p>
+            </div>
+        </div>
+    
+        <!-- FAQ 4 -->
+        <div class="accordion-item">
+            <h3 class="accordion">
+                Benzinli arabalar çevreye zararlı mı?
+            </h3>
+            <div class="panel">
+                <p>Benzinli arabalar, fosil yakıt kullandıkları için karbon salınımına yol açar, ancak modern motorlar daha verimli ve çevre dostu hale gelmiştir.</p>
+            </div>
+        </div>
+    
+        <!-- FAQ 5 -->
+        <div class="accordion-item">
+            <h3 class="accordion">
+                Benzinli araba alırken nelere dikkat edilmelidir?
+            </h3>
+            <div class="panel">
+                <p>Yakıt verimliliği, bakım maliyetleri, motor gücü, güvenlik özellikleri ve aracın ikinci el değeri gibi faktörlere dikkat edilmelidir.</p>
+            </div>
+        </div>
     </div>
+    </section>
+    
+    <!-- FAQ Schema Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Benzinli arabaların avantajları nelerdir?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Benzinli arabalar genellikle daha düşük başlangıç maliyetine sahiptir, yakıt temini kolaydır ve uzun menzil sunar."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Benzinli arabalar ne kadar yakıt tüketir?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yakit tüketimi araç modeline ve sürüş koşullarına bağlıdır. Ortalama olarak benzinli arabalar 100 km'de 6-10 litre arasında yakıt tüketebilir."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Benzinli araba modelleri arasındaki farklar nelerdir?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Farklar, motor gücü, yakıt verimliliği, iç mekan donanımı, güvenlik özellikleri ve sürüş teknolojileri gibi unsurlarda bulunabilir."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Benzinli arabalar çevreye zararlı mı?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Benzinli arabalar, fosil yakıt kullandıkları için karbon salınımına yol açar, ancak modern motorlar daha verimli ve çevre dostu hale gelmiştir."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Benzinli araba alırken nelere dikkat edilmelidir?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yakıt verimliliği, bakım maliyetleri, motor gücü, güvenlik özellikleri ve aracın ikinci el değeri gibi faktörlere dikkat edilmelidir."
+                }
+            }
+        ]
+    }
+    </script>
     
     <my-footer></my-footer>
     

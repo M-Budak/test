@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // İlk harfi büyük yaparak başlığı güncelle
     const formattedBrand = `${brand.charAt(0).toUpperCase() + brand.slice(1)}`;
-    document.querySelector('h1.genel-baslik-1').textContent = `${formattedBrand} Otomobiller`;
-    document.title = `${formattedBrand} | OtoVivo`;
+    document.querySelector('h1.genel-baslik-1').textContent = `${formattedBrand} Otomobil Modelleri`;
+    // document.title = `${formattedBrand} | OtoVivo`;
 
     fetch('../data/data.json')
         .then(response => response.json())
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 const categorySection = document.createElement('div');
                 categorySection.id = category.toLowerCase();
                 categorySection.innerHTML = `
-                    <h2 class="genel-baslik-2">${category} Modeller</h2>
+                    <h2 class="genel-baslik-2">${formattedBrand} ${category} Modeller</h2>
                     <div class="row"></div>
                 `;
                 categoriesContainer.appendChild(categorySection);
@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
                                         <img src="${item.img}" class="card-img-top-brand ${item.BadgeStatus === 'soon' ? 'grayscale' : ''}" alt="${item.alt}">
                                         <div class="card-body">
                                             ${badgeInfo ? `<div class="badge" style="background-color:${badgeInfo.color}">${badgeInfo.text}</div>` : ''}
-                                            <h5 class="card-title">${item.model}</h5>
+                                            <h3 class="card-title">${formattedBrand} ${item.model}</h3>
                                         </div>
                                     </a>
                                 </div>

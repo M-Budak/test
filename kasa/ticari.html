@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Geniş iç hacmi ve aile dostu özellikleri ile Minivan arabaları keşfedin. Kullanıcı yorumları ve yakıt tüketimi bilgileriyle aradığınız modeli bulun.">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -13,15 +14,16 @@
     <script src="../fetch/body.js"></script>
     <script src="../fetch/header.js" defer></script>
     <script src="../fetch/footer.js" defer></script>
-    <title>Document</title>
+    <title>Aile Dostu Minivan Modelleri | Yakıt Tüketimi ve Yorumlar</title>
 </head>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
     <my-header></my-header>
     
     <div class="carbody container">  
-        <h1 class="genel-baslik-1 mt-2">Ticari Otomobiller
-        </h1>
-    
+        <h1 class="genel-baslik-1 mt-2">Ticari Kasa Araba Modelleri</h1>
+        <p class="description">
+            Minivanlar, geniş iç hacmi, konforlu yolculukları ve pratik kullanımı ile aileler ve ticari işletmeler için mükemmel bir seçenek sunar. Otovivo’da ticari araçlar ve minivan modelleri hakkında kullanıcı puanları, yorumlar ve detaylı incelemeler bulabilirsiniz. Aile içi kullanım için ideal olan bu araçlar, büyük bagaj kapasitesi ve çoklu yolcu taşıma imkanıyla mükemmel bir tercih olabilir.
+        </p>
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -25%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
             <!-- Ticari Modeller -->
             <div class="row" id="given-ids" data-model-ids="CH8PSU1N,FTEGHB1N,TGT1SU1N,DCDSSU2N,CH7PSU1N,PE38SU2N,HYBASU1N,CHOMSU1N,PE28SU2N,NIQSSU3N,OPMKSU2N,VWTRSU1N,OPCRSU1N,TEMYSE1N,DCSNHB3N,VWTASU1N,HYTUSU4N,PE48HB1N,VWTGSU3N,CT5ASU1N1"></div>
@@ -29,7 +31,109 @@
             <h2 class="genel-baslik-2">Otomobil Markaları</h2>
             <div class="row row-cols-3 row-cols-md-6 g-4 mt-3"></div> -->
         </div>
-    </div>
+        <section id="faq">
+            <h2>Ticari Otomobil Modelleri Hakkında Sık Sorulan Sorular</h2>
+            <!-- FAQ 1 -->
+            <div class="accordion-item">
+                <h3 class="accordion">
+                    Ticari otomobillerin avantajları nelerdir?
+                </h3>
+                <div class="panel">
+                    <p>Ticari otomobiller genellikle büyük yük kapasitesine sahip, dayanıklı ve uzun ömürlü araçlardır. Ayrıca yakıt verimliliği ve düşük bakım maliyetleri sunar.</p>
+                </div>
+            </div>
+        
+            <!-- FAQ 2 -->
+            <div class="accordion-item">
+                <h3 class="accordion">
+                    Hangi ticari otomobil modeli iş ihtiyaçlarıma uygun olur?
+                </h3>
+                <div class="panel">
+                    <p>İhtiyaçlarınıza göre değişir. Küçük işletmeler için panelvanlar, büyük lojistik firmaları için ise kamyonet ve tırlar daha uygun olabilir. Yük kapasitesi, yakıt verimliliği ve araç boyutu kararınızı etkileyebilir.</p>
+                </div>
+            </div>
+        
+            <!-- FAQ 3 -->
+            <div class="accordion-item">
+                <h3 class="accordion">
+                    Ticari araçlar için finansman seçenekleri nelerdir?
+                </h3>
+                <div class="panel">
+                    <p>Birçok bankadan ticari araç kredisi alabilirsiniz. Ayrıca, uzun dönemli kiralama ve işletme kredileri gibi alternatif finansman seçenekleri de mevcuttur.</p>
+                </div>
+            </div>
+        
+            <!-- FAQ 4 -->
+            <div class="accordion-item">
+                <h3 class="accordion">
+                    Ticari araçların bakım maliyetleri nasıl olur?
+                </h3>
+                <div class="panel">
+                    <p>Ticari araçların bakım maliyetleri model ve kullanım amacına göre değişir. Genellikle düzenli bakım, motor yağı değişimi ve lastik değişimi gibi işlemler gereklidir. Ancak doğru bakım yapıldığında maliyetler düşer.</p>
+                </div>
+            </div>
+        
+            <!-- FAQ 5 -->
+            <div class="accordion-item">
+                <h3 class="accordion">
+                    Türkiye’de ticari araçlar için vergi avantajları var mı?
+                </h3>
+                <div class="panel">
+                    <p>Evet, ticari araçlar için belirli vergi avantajları sunulmaktadır. Özellikle motorlu taşıtlar vergisi ve yakıt vergisi gibi avantajlar mevcuttur. İşletme araçları için bu tür avantajlardan yararlanılabilir.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- FAQ Schema Markup -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Ticari otomobillerin avantajları nelerdir?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ticari otomobiller genellikle büyük yük kapasitesine sahip, dayanıklı ve uzun ömürlü araçlardır. Ayrıca yakıt verimliliği ve düşük bakım maliyetleri sunar."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Hangi ticari otomobil modeli iş ihtiyaçlarıma uygun olur?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "İhtiyaçlarınıza göre değişir. Küçük işletmeler için panelvanlar, büyük lojistik firmaları için ise kamyonet ve tırlar daha uygun olabilir. Yük kapasitesi, yakıt verimliliği ve araç boyutu kararınızı etkileyebilir."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ticari araçlar için finansman seçenekleri nelerdir?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Birçok bankadan ticari araç kredisi alabilirsiniz. Ayrıca, uzun dönemli kiralama ve işletme kredileri gibi alternatif finansman seçenekleri de mevcuttur."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Ticari araçların bakım maliyetleri nasıl olur?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ticari araçların bakım maliyetleri model ve kullanım amacına göre değişir. Genellikle düzenli bakım, motor yağı değişimi ve lastik değişimi gibi işlemler gereklidir. Ancak doğru bakım yapıldığında maliyetler düşer."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Türkiye’de ticari araçlar için vergi avantajları var mı?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Evet, ticari araçlar için belirli vergi avantajları sunulmaktadır. Özellikle motorlu taşıtlar vergisi ve yakıt vergisi gibi avantajlar mevcuttur. İşletme araçları için bu tür avantajlardan yararlanılabilir."
+              }
+            }
+          ]
+        }
+        </script>
+        
     
     <my-footer></my-footer>
     

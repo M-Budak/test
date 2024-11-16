@@ -1,5 +1,53 @@
 /* CSS Dosyası */
 
+/* Accordion button styles */
+
+/* Accordion Container */
+.accordion-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Accordion Başlıkları (H3) */
+  .accordion {
+    background-color: #f1f1f1;
+    padding: 14px;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Accordion Başlıklarına Hover Efekti */
+  .accordion:hover {
+    background-color: #ddd;
+  }
+  
+  /* Accordion Paneli */
+  .panel {
+    display: none;
+    padding: 10px 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Accordion aktif olduğunda, paneli göster */
+  .accordion.active + .panel {
+    display: block;
+  }
+  
+
+/* accordion ends  */
+
+
 .no-comments-message {
     padding: 12px;
     color: #555; /* İsteğe bağlı renk */
@@ -835,7 +883,6 @@ a, a:visited, a:focus, a:active a:hover {
     font-size: 3rem;
     font-weight: 700;
     color: var(--primary-color);
-    margin: 0.5rem;
 }
 
 .genel-baslik-2{

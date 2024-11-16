@@ -97,32 +97,32 @@ class MyFooter extends HTMLElement {
                             <ul class="list-unstyled">
                                 <div class="row">
                                     <div class="col-6 col-md-12">
-                                        <li><a href="../model/egea-sedan.html?model=egea-sedan">Fiat Egea Sedan</a></li>
-                                        <li><a href="../model/clio.html?model=clio">Renault Clio</a></li>
-                                        <li><a href="../model/t10x.html?model=t10x">Togg T10X</a></li>
-                                        <li><a href="../model/taigo.html?model=taigo">Volkswagen Taigo</a></li>
-                                        <li><a href="../model/i20.html?model=i20">Hyundai i20</a></li>
-                                        <li><a href="../model/bayon.html?model=bayon">Hyundai Bayon</a></li>
-                                        <li><a href="../model/model-y.html?model=model-y">Tesla Model Y</a></li>
-                                        <li><a href="../model/stonic.html?model=stonic">Kia Stonic</a></li>
-                                        <li><a href="../model/civic.html?model=civic">Honda Civic</a></li>
-                                        <li><a href="../model/duster.html?model=duster">Dacia Duster</a></li>
-                                        <li><a href="../model/corsa.html?model=corsa">Opel Corsa</a></li>
-                                        <li><a href="../model/omoda-5.html?model=omoda-5">Cherry Omoda 5</a></li>
+                                        <li><a href="../model/egea-sedan.html">Fiat Egea Sedan</a></li>
+                                        <li><a href="../model/clio.html">Renault Clio</a></li>
+                                        <li><a href="../model/t10x.html">Togg T10X</a></li>
+                                        <li><a href="../model/taigo.html">Volkswagen Taigo</a></li>
+                                        <li><a href="../model/i20.html">Hyundai i20</a></li>
+                                        <li><a href="../model/bayon.html">Hyundai Bayon</a></li>
+                                        <li><a href="../model/model-y.html">Tesla Model Y</a></li>
+                                        <li><a href="../model/stonic.html">Kia Stonic</a></li>
+                                        <li><a href="../model/civic.html">Honda Civic</a></li>
+                                        <li><a href="../model/duster.html">Dacia Duster</a></li>
+                                        <li><a href="../model/corsa.html">Opel Corsa</a></li>
+                                        <li><a href="../model/omoda-5.html">Cherry Omoda 5</a></li>
                                     </div>
                                     <div class="col-6 col-md-12">
                                     
-                                        <li><a href="../model/focus.html?model=focus">Ford Focus</a></li>
-                                        <li><a href="../model/megane.html?model=megane">Renault Megane</a></li>
-                                        <li><a href="../model/passat.html?model=passat">Volkswagen Passat</a></li>
-                                        <li><a href="../model/corolla.html?model=corolla">Toyota Corolla</a></li>
-                                        <li><a href="../model/golf.html?model=golf">Volkswagen Golf</a></li>
-                                        <li><a href="../model/t10x.html?model=t10x">Togg T10X</a></li>
-                                        <li><a href="../model/320i.html?model=320i">BMW 320i</a></li>
-                                        <li><a href="../model/mokka.html?model=mokka">Opel Mokka</a></li>
-                                        <li><a href="../model/crossland.html?model=crossland">Opel Crossland</a></li>
-                                        <li><a href="../model/egea-cross.html?model=egea-cross">Fiat Egea Cross</a></li>
-                                        <li><a href="../model/3008.html?model=3008">Peugeot 3008</a></li>
+                                        <li><a href="../model/focus.html">Ford Focus</a></li>
+                                        <li><a href="../model/megane.html">Renault Megane</a></li>
+                                        <li><a href="../model/passat.html">Volkswagen Passat</a></li>
+                                        <li><a href="../model/corolla.html">Toyota Corolla</a></li>
+                                        <li><a href="../model/golf.html">Volkswagen Golf</a></li>
+                                        <li><a href="../model/t10x.html">Togg T10X</a></li>
+                                        <li><a href="../model/320i.html">BMW 320i</a></li>
+                                        <li><a href="../model/mokka.html">Opel Mokka</a></li>
+                                        <li><a href="../model/crossland.html">Opel Crossland</a></li>
+                                        <li><a href="../model/egea-cross.html">Fiat Egea Cross</a></li>
+                                        <li><a href="../model/3008.html">Peugeot 3008</a></li>
                                         <li><a href="../model">Tümü ></a></li>
                                     </div>
                                 </div>
@@ -136,31 +136,31 @@ class MyFooter extends HTMLElement {
                             <ul class="list-unstyled">
                                 <div class="row">
                                     <div class="col-6 col-md-12">
-                                        <li><a href="../marka/audi.html?brand=audi">Audi</a></li>
-                                        <li><a href="../marka/bmw.html?brand=bmw">BMW</a></li>
-                                        <li><a href="../marka/chery.html?brand=chery">Chery</a></li>
-                                        <li><a href="../marka/citroen.html?brand=citroen">Citroen</a></li>
-                                        <li><a href="../marka/dacia.html?brand=dacia">Dacia</a></li>
-                                        <li><a href="../marka/cupra.html?brand=cupra">Cupra</a></li>
-                                        <li><a href="../marka/mg.html?brand=mg">MG</a></li>
-                                        <li><a href="../marka/fiat.html?brand=fiat">Fiat</a></li>
-                                        <li><a href="../marka/ford.html?brand=ford">Ford</a></li>
-                                        <li><a href="../marka/honda.html?brand=honda">Honda</a></li>
-                                        <li><a href="../marka/hyundai.html?brand=hyundai">Hyundai</a></li>
-                                        <li><a href="../marka/kia.html?brand=kia">Kia</a></li>
+                                        <li><a href="../marka/audi.html">Audi</a></li>
+                                        <li><a href="../marka/bmw.html">BMW</a></li>
+                                        <li><a href="../marka/chery.html">Chery</a></li>
+                                        <li><a href="../marka/citroen.html">Citroen</a></li>
+                                        <li><a href="../marka/dacia.html">Dacia</a></li>
+                                        <li><a href="../marka/cupra.html">Cupra</a></li>
+                                        <li><a href="../marka/mg.html">MG</a></li>
+                                        <li><a href="../marka/fiat.html">Fiat</a></li>
+                                        <li><a href="../marka/ford.html">Ford</a></li>
+                                        <li><a href="../marka/honda.html">Honda</a></li>
+                                        <li><a href="../marka/hyundai.html">Hyundai</a></li>
+                                        <li><a href="../marka/kia.html">Kia</a></li>
                                     </div>
                                     <div class="col-6 col-md-12">
-                                        <li><a href="../marka/mercedes-benz.html?brand=mercedes-benz">Mercedes-Benz</a></li>
-                                        <li><a href="../marka/nissan.html?brand=nissan">Nissan</a></li>
-                                        <li><a href="../marka/opel.html?brand=opel">Opel</a></li>
-                                        <li><a href="../marka/peugeot.html?brand=peugeot">Peugeot</a></li>
-                                        <li><a href="../marka/renault.html?brand=renault">Renault</a></li>
-                                        <li><a href="../marka/skoda.html?brand=skoda">Skoda</a></li>
-                                        <li><a href="../marka/tesla.html?brand=tesla">Tesla</a></li>
-                                        <li><a href="../marka/togg.html?brand=togg">Togg</a></li>
-                                        <li><a href="../marka/toyota.html?brand=toyota">Toyota</a></li>
-                                        <li><a href="../marka/volkswagen.html?brand=volkswagen">Volkswagen</a></li>
-                                        <li><a href="../marka/volvo.html?brand=volvo">Volvo</a></li>
+                                        <li><a href="../marka/mercedes-benz.html">Mercedes-Benz</a></li>
+                                        <li><a href="../marka/nissan.html">Nissan</a></li>
+                                        <li><a href="../marka/opel.html">Opel</a></li>
+                                        <li><a href="../marka/peugeot.html">Peugeot</a></li>
+                                        <li><a href="../marka/renault.html">Renault</a></li>
+                                        <li><a href="../marka/skoda.html">Skoda</a></li>
+                                        <li><a href="../marka/tesla.html">Tesla</a></li>
+                                        <li><a href="../marka/togg.html">Togg</a></li>
+                                        <li><a href="../marka/toyota.html">Toyota</a></li>
+                                        <li><a href="../marka/volkswagen.html">Volkswagen</a></li>
+                                        <li><a href="../marka/volvo.html">Volvo</a></li>
                                         <li><a href="../marka">Tümü ></a></li>
                                     </div>
                                 </div>

@@ -65,7 +65,7 @@ function showSimilarModels(similarIds) {
     const scrollableCards = document.querySelector('.scrollable-cards');
     scrollableCards.innerHTML = '';
 
-    fetch('../data/testdata.json')
+    fetch('../data/data.json')
         .then(response => response.json())
         .then(data => {
             similarIds.forEach(id => {

@@ -12,10 +12,10 @@ document.addEventListener("DOMContentLoaded", function() {
             if (modelData) {
                 const titleText = `${modelData.brand} ${modelData.model}`; // Store the title text
     
-                document.querySelector('.genel-baslik-1').textContent = titleText; // Set the heading
-                document.title = titleText; // Update the document title
+                // document.querySelector('.genel-baslik-1').textContent = titleText; Set the heading
+                // document.title = titleText; Update the document title
     
-                document.querySelector('.description').textContent = modelData.desc;
+                // document.querySelector('.description').textContent = modelData.desc;
 
                 const imgElement = document.querySelector('.img-fluid');
                 imgElement.src = modelData.img;

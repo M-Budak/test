@@ -16,7 +16,7 @@ class Segments extends HTMLElement {
                 <a href="segment/a-segment.html" class="brand-link "> 
                     <div class="card">
                         <div class="home-card-body">
-                            <h5 class="home-text-brand">Kompakt Araçlar</h5>
+                            <h5 class="home-text-brand">Kompakt Arabalar</h5>
                         </div>
                     </div>
                 </a>
@@ -25,7 +25,7 @@ class Segments extends HTMLElement {
                 <a href="segment/b-segment.html" class="brand-link"> 
                   <div class="card">
                     <div class="home-card-body">
-                      <h5 class="home-text-brand">Küçük Araçlar</h5>
+                      <h5 class="home-text-brand">Küçük Arabalar</h5>
                     </div>
                   </div>
                 </a>
@@ -34,7 +34,7 @@ class Segments extends HTMLElement {
                 <a href="segment/c-segment.html" class="brand-link"> 
                   <div class="card">
                     <div class="home-card-body">
-                      <h5 class="home-text-brand">Orta Sınıf Araçlar</h5>
+                      <h5 class="home-text-brand">Orta Arabalar</h5>
                     </div>
                   </div>
                 </a>
@@ -43,7 +43,7 @@ class Segments extends HTMLElement {
                 <a href="segment/d-segment.html" class="brand-link"> 
                   <div class="card">
                     <div class="home-card-body">
-                      <h5 class="home-text-brand">Orta-Üst Araçlar</h5>
+                      <h5 class="home-text-brand">Orta-Üst Arabalar</h5>
                     </div>
                   </div>
                 </a>
@@ -52,7 +52,7 @@ class Segments extends HTMLElement {
                 <a href="segment/e-segment.html" class="brand-link"> 
                   <div class="card">
                     <div class="home-card-body">
-                      <h5 class="home-text-brand">E Segment</h5>
+                      <h5 class="home-text-brand">Üst Arabalar</h5>
                     </div>
                   </div>
                 </a>
@@ -61,7 +61,7 @@ class Segments extends HTMLElement {
                 <a href="segment/f-segment.html" class="brand-link"> 
                     <div class="card">
                         <div class="home-card-body">
-                            <h5 class="home-text-brand">F Segment</h5>
+                            <h5 class="home-text-brand">Lüks Arabalar</h5>
                         </div>
                     </div>
                 </a>
@@ -70,7 +70,7 @@ class Segments extends HTMLElement {
                 <a href="segment/m-segment.html" class="brand-link"> 
                   <div class="card">
                     <div class="home-card-body">
-                      <h5 class="home-text-brand">M Segment</h5>
+                      <h5 class="home-text-brand">Minivan Araçlar</h5>
                     </div>
                   </div>
                 </a>
@@ -79,7 +79,7 @@ class Segments extends HTMLElement {
                 <a href="segment/j-segment.html" class="brand-link"> 
                   <div class="card">
                     <div class="home-card-body">
-                      <h5 class="home-text-brand">J Segment</h5>
+                      <h5 class="home-text-brand">Kompakt SUV</h5>
                     </div>
                   </div>
                 </a>

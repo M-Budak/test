@@ -1,5 +1,124 @@
 /* CSS Dosyası */
 
+/* share buttons start */
+
+/* Genel Paylaşım Kutuları */
+
+/* Genel Paylaşım Kutuları */
+/* Genel Paylaşım Kutuları */
+.share-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.share-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    text-decoration: none; /* Alt çizgi kaldırıldı */
+    color: white; /* Yazılar beyaz */
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    text-align: center;
+}
+
+.share-btn:visited,
+.share-btn:hover,
+.share-btn:active {
+    text-decoration: none; /* Alt çizgi kaldırıldı */
+    color: white; /* Mavi renk kaldırıldı */
+}
+
+.share-text {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .share-btn {
+        width: 50px;
+        height: 40px;
+        padding: 0;
+        color: white; /* Yazılar beyaz */
+    }
+
+    .share-btn .share-text {
+        display: none; /* Mobilde yazılar gizlenir */
+    }
+
+    .share-btn i {
+        font-size: 20px; /* İkonlar büyütülür */
+    }
+}
+
+@media (min-width: 769px) {
+    .share-btn {
+        width: 135px;
+        height: 40px;
+        padding: 10px;
+    }
+
+    .share-btn i {
+        font-size: 16px; /* Masaüstünde ikon boyutu daha küçük */
+    }
+}
+
+/* Hover Efekti */
+.share-btn:hover {
+    transform: translateY(-4px); /* Kutucuk yukarı gider */
+}
+
+/* Butonlara Özel Renkler */
+.whatsapp {
+    background-color: #25D366;
+}
+.whatsapp:hover {
+    background-color: #1da855;
+}
+
+.messenger {
+    background-color: #448aff;
+}
+.messenger:hover {
+    background-color: #3578e5;
+}
+
+.twitter {
+    background-color: #000000;
+}
+.twitter:hover {
+    background-color: #333333;
+}
+
+.facebook {
+    background-color: #4267b2;
+}
+.facebook:hover {
+    background-color: #365899;
+}
+
+.instagram {
+    background-color: #FCAF45;
+}
+.instagram:hover {
+    background-color: #E89E3C;
+}
+
+.telegram {
+    background-color: #0088cc;
+}
+.telegram:hover {
+    background-color: #0077b3;
+}
+
+
+/* share buttons end */
+
+
 /* Accordion button styles */
 
 /* Accordion Container */
@@ -1497,17 +1616,6 @@ font-size: 0.9rem;
 /* MODEL < 769 ENDS */
 
 /* SCREEN SIZE < 769 ENDS */
-
-
-
-
-
-
-
-
-
-
-
 
 .footer_haberler .col-12 li{
     margin-left: auto; /* Sağa yasla */

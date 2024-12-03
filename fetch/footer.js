@@ -63,14 +63,8 @@ class MyFooter extends HTMLElement {
                                         <li><a href="../kasa/hatchback.html">Hatchback</a></li>
                                         <li><a href="../kasa/suv.html">SUV</a></li>
                                         <li><a href="../kasa/pickup.html">Pickup</a></li>
-                                        <li><a href="../kasa/crossover.html">Crossover</a></li>
-                                        <li><a href="../kasa/mpv.html">MPV</a></li>
-                                        <li><a href="../kasa/station.html">Station</a></li>
-                                        <li><a href="../kasa/cabrio.html">Cabrio</a></li>
-                                        <li><a href="../kasa/coupe.html">Coupe</a></li>
-                                        <li><a href="../kasa/minivan.html">Minivan</a></li>
-                                        <li><a href="../kasa/panelvan.html">Panelvan</a></li>
-                                        <li><a href="../kasa/micro.html">Micro</a></li>
+                                        <li><a href="../kasa/spor.html">Spor</a></li>
+                                        <li><a href="../kasa/ticari.html">Ticari</a></li>
                                     </div>
                                     <div class="col-6 col-md-12">
                                         <li><a href="../yakit/benzinli.html">Benzinli</a></li>

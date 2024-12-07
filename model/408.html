@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="../style.css">
     <script src="https://kit.fontawesome.com/a67856db21.js" crossorigin="anonymous"></script>
     <script src="../fetch/testdynamic.js" defer></script>
+    <script src="../fetch/social-share.js"></script>
     <script src="../fetch/header.js" defer></script>
     <script src="../fetch/footer.js" defer></script>
     <link rel="icon" href="/img/otovivo.ico" type="image/x-icon">
@@ -188,60 +189,7 @@
         </div>
             
 
-              <h6 class="genel-baslik-2" style="margin-top:12px; padding:0px 0px 0px 12px;">Sevdiklerinize Paylaşın, Fikirlerini Alın!</h6>
-              <div class="share-buttons">
-                  <!-- WhatsApp -->
-                  <a id="whatsapp-share" href="#" target="_blank" class="share-btn whatsapp" aria-label="WhatsApp'ta Gönder">
-                      <i class="fab fa-whatsapp"></i>
-                      <span class="share-text">WhatsApp'tan Gönder</span>
-                  </a>
-              
-                  <!-- Messenger -->
-                  <a id="messenger-share" href="#" target="_blank" class="share-btn messenger" aria-label="Messenger'da Paylaş">
-                      <i class="fab fa-facebook-messenger"></i>
-                      <span class="share-text">Messenger'la Paylaş</span>
-                  </a>
-              
-                  <!-- Twitter -->
-                  <a id="x-share" href="#" target="_blank" class="share-btn twitter" aria-label="X'te Paylaş">
-                    <i class="fab fa-x-twitter"></i>
-                    <span class="share-text">X'te Paylaş</span>
-                </a>
-                
-              
-                  <!-- Facebook -->
-                  <a id="facebook-share" href="#" target="_blank" class="share-btn facebook" aria-label="Facebook'ta Paylaş">
-                      <i class="fab fa-facebook-f"></i>
-                      <span class="share-text">Facebook'ta Paylaş</span>
-                  </a>
-              
-                  <!-- Telegram -->
-                  <a id="telegram-share" href="#" target="_blank" class="share-btn telegram" aria-label="Telegram'da Paylaş">
-                      <i class="fab fa-telegram"></i>
-                      <span class="share-text">Telegram'la Gönder</span>
-                  </a>
-              </div>
-              
-              <script>
-                  // Sayfanın URL'sini al
-                  const currentUrl = window.location.href;
-              
-                  // WhatsApp paylaşım linki
-                  document.getElementById('whatsapp-share').href = `https://wa.me/?text=${encodeURIComponent(currentUrl)}%20Bu%20arabayı%20incelemelisin!`;
-              
-                  // Messenger paylaşım linki
-                  document.getElementById('messenger-share').href = `fb-messenger://share?link=${encodeURIComponent(currentUrl)}`;
-              
-                  // Twitter paylaşım linki
-                  document.getElementById('twitter-share').href = `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=Bu%20arabayı%20incelemelisin!`;
-              
-                  // Facebook paylaşım linki
-                  document.getElementById('facebook-share').href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`;
-              
-                  // Telegram paylaşım linki
-                  document.getElementById('telegram-share').href = `https://t.me/share/url?url=${encodeURIComponent(currentUrl)}&text=Bu%20arabayı%20incelemelisin!`;
-              </script>
-                
+        <social-share></social-share>
         
 
             </div>

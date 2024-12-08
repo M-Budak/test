@@ -8,10 +8,6 @@
 /* Genel Paylaşım Kutuları */
 .genel-baslik-3 {
     margin-top: 12px;
-    padding: 0px 0px 0px 12px;
-    font-size: 240px; /* Örnek stil */
-    color: #555; /* Örnek renk */
-    background-color: red;
 }
 
 .share-buttons {

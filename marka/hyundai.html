@@ -9,55 +9,40 @@
         content="Hyundai Araç Değerlendirmeleri ile en güncel puanlar ve kullanıcı yorumlarını inceleyin. Hyundai araçlarının performansını değerlendirin.">
     <meta name="robots" content="index, follow">
     <meta name="hreflang" content="tr">
-
     <!-- Canonical -->
     <link rel="canonical" href="https://otovivo.com/marka/hyundai.html">
-
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Hyundai Araç Değerlendirmeleri | Puanlar ve Detaylı Yorumlar">
-    <meta property="og:description" content=Hyundai Araç Değerlendirmeleri ile en güncel puanlar ve kullanıcı
-        yorumlarını inceleyin. Hyundai araçlarının performansını değerlendirin.">
+    <meta property="og:description"
+        content="Hyundai Araç Değerlendirmeleri ile en güncel puanlar ve kullanıcı yorumlarını inceleyin. Hyundai araçlarının performansını değerlendirin.">
     <meta property="og:image" content="https://otovivo.com/img/hyundai.png">
     <meta property="og:url" content="https://otovivo.com/marka/hyundai.html">
     <meta property="og:type" content="website">
-
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content=Hyundai Araç Değerlendirmeleri | Puanlar ve Detaylı Yorumlar">
-    <meta name="twitter:description" content=Hyundai Araç Değerlendirmeleri ile en güncel puanlar ve kullanıcı
-        yorumlarını inceleyin. Hyundai araçlarının performansını değerlendirin.">
+    <meta name="twitter:title" content="Hyundai Araç Değerlendirmeleri | Puanlar ve Detaylı Yorumlar">
+    <meta name="twitter:description"
+        content="Hyundai Araç Değerlendirmeleri ile en güncel puanlar ve kullanıcı yorumlarını inceleyin. Hyundai araçlarının performansını değerlendirin.">
     <meta name="twitter:image" content="https://otovivo.com/img/hyundai.png">
-
     <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-
     <!-- CSS Stylesheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css" media="print" onload="this.media='all'">
-
     <!-- Icons -->
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="icon" href="/img/otovivo.svg" type="image/svg+xml">
     <link rel="icon" href="/img/otovivo.ico" type="image/x-icon">
-
     <!-- Title -->
     <title>Hyundai Araç Değerlendirmeleri | Puanlar ve Detaylı Yorumlar</title>
-
     <!-- JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"
-        defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
         defer></script>
-
-    <!-- Inline CSS -->
-    <style>
-        body {
-            font-family: 'Montserrat', sans-serif;
-        }
-    </style>
+    <script src="../fetch/header.js" defer></script>
+    <script src="../fetch/footer.js" defer></script>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
@@ -72,22 +57,105 @@
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -25%"
             data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0" id="categories-container">
         </div>
+        <h3 class="genel-baslik-3">Diğer Markalara Göz Atın!</h3>
+        <div class="row row-cols-3 row-cols-md-6 g-4 mt-3">
+            <div class="brand">
+                <a href="../marka/citroen.html" class="brand-link">
+                    <div class="card h-100">
+                        <img src="../logo/citroen.svg" class="six-brand-img" alt="Citroen Marka Otomobiller">
+                        <div class="home-card-body">
+                            <h4 class="home-text-brand">Peugeot</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="brand">
+                <a href="../marka/nissan.html" class="brand-link">
+                    <div class="card h-100">
+                        <img src="../logo/nissan.svg" class="six-brand-img" alt="Nissan Marka Otomobiller">
+                        <div class="home-card-body">
+                            <h4 class="home-text-brand">Nissan</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="brand">
+                <a href="../marka/fiat.html" class="brand-link">
+                    <div class="card h-100">
+                        <img src="../logo/fiat.svg" class="six-brand-img" alt="Fiat Marka Otomobiller">
+                        <div class="home-card-body">
+                            <h4 class="home-text-brand">Fiat</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="brand">
+                <a href="../marka/opel.html" class="brand-link">
+                    <div class="card h-100">
+                        <img src="../logo/opel.svg" class="six-brand-img" alt="Opel Marka Otomobiller">
+                        <div class="home-card-body">
+                            <h4 class="home-text-brand">Opel</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="brand">
+                <a href="../marka/dacia.html" class="brand-link">
+                    <div class="card h-100">
+                        <img src="../logo/dacia.svg" class="six-brand-img" alt="Dacia Marka Otomobiller">
+                        <div class="home-card-body">
+                            <h4 class="home-text-brand">Dacia</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="brand">
+                <a href="../marka/toyota.html" class="brand-link">
+                    <div class="card h-100">
+                        <img src="../logo/toyota.svg" class="six-brand-img" alt="Toyota Marka Otomobiller">
+                        <div class="home-card-body">
+                            <h4 class="home-text-brand">Toyota</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <a href="../marka/" style="text-decoration: none;">
+            <div class="seen" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                style="display: flex; align-items: center; justify-content: center; margin: 0.7rem;">
+                Tümünü Göster >
+            </div>
+        </a>
+        <social-share></social-share>
+        <br>
+        <h2 class="genel-baslik-3" style="margin-top: 1rem;">Hyundai Modelleri: Güvenlik, Tasarım ve Performans</h2>
+        <p>Hyundai, kullanıcı odaklı yaklaşımı ve yenilikçi otomobil çözümleriyle otomotiv dünyasında kendine sağlam bir
+            yer edinmiştir. Sedan, SUV, hatchback ve elektrikli araç segmentlerinde geniş bir model yelpazesi sunan
+            Hyundai, her sürüş stiline uygun seçenekler barındırır. Şık tasarımı ve üstün teknolojileriyle dikkat çeken
+            Hyundai modelleri, sürüş keyfini artırırken konfor ve güvenlikten ödün vermez.</p>
+        <p>Hyundai'nin SmartSense teknolojisi, sürüş sırasında size ekstra bir güvenlik katmanı sağlar. Çarpışma önleme,
+            şerit takip asistanı ve kör nokta uyarı sistemleri gibi özelliklerle donatılan modeller, sürüş sırasında
+            karşılaşabileceğiniz riskleri minimuma indirir. Ayrıca Hyundai'nin çevre dostu hibrit ve elektrikli
+            araçları, sürdürülebilir bir dünya için etkili çözümler sunar. Marka, ekonomik motor seçenekleriyle de
+            kullanıcıların yakıt maliyetlerini azaltmayı hedefler.</p>
+        <p>Bu sayfada Hyundai'nin çeşitli kasa tiplerindeki modellerini inceleyerek teknik detaylar ve kullanıcı
+            yorumları eşliğinde karar verebilirsiniz. Hangi modelin sizin ihtiyaçlarınıza uygun olduğunu anlamak için
+            tüm seçenekleri karşılaştırabilir, ideal aracınızı seçebilirsiniz.</p>
+        <p>Bu sayfadaki <strong>Hyundai modellerine ait bilgiler</strong>, <a href="https://www.hyundai.com/tr/tr/"
+                target="_blank" rel="noopener noreferrer">Hyundai Türkiye’nin resmi web sitesi</a> ve <a
+                href="https://www.hyundai.com/worldwide/en/" target="_blank" rel="noopener noreferrer">Hyundai
+                Global</a> kaynaklarından derlenmiştir.</p>
+        <!-- Footer -->
     </div>
-
     <my-footer></my-footer>
-
-    <script src="../fetch/markalar.js"></script>
-    <script src="../fetch/header.js"></script>
-    <script src="../fetch/footer.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <!-- External Scripts -->
+    <script src="../fetch/social-share.js" defer></script>
+    <script src="../fetch/body.js" defer></script>
+    <script src="../fetch/testdata.js" defer></script>
+    <script src="../fetch/markalar.js" defer></script>
+    <script type="text/javascript"
+        src="https://platform-api.sharethis.com/js/sharethis.js#property=67387d419091730012acf08b&product=inline-share-buttons&source=platform"
+        async></script>
 </body>
 
 </html>

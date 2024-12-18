@@ -1,0 +1,101 @@
+<h3 class="genel-baslik-3">Diğer Markalara Göz Atın!</h3>
+<div class="row row-cols-3 row-cols-md-6 g-4 mt-3">
+    <div class="brand">
+        <a href="../marka/citroen.html" class="brand-link">
+            <div class="card h-100">
+                <img src="../logo/citroen.svg" class="six-brand-img" alt="Citroen Marka Otomobiller">
+                <div class="home-card-body">
+                    <h4 class="home-text-brand">Peugeot</h4>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="brand">
+        <a href="../marka/nissan.html" class="brand-link">
+            <div class="card h-100">
+                <img src="../logo/nissan.svg" class="six-brand-img" alt="Nissan Marka Otomobiller">
+                <div class="home-card-body">
+                    <h4 class="home-text-brand">Nissan</h4>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="brand">
+        <a href="../marka/fiat.html" class="brand-link">
+            <div class="card h-100">
+                <img src="../logo/fiat.svg" class="six-brand-img" alt="Fiat Marka Otomobiller">
+                <div class="home-card-body">
+                    <h4 class="home-text-brand">Fiat</h4>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="brand">
+        <a href="../marka/opel.html" class="brand-link">
+            <div class="card h-100">
+                <img src="../logo/opel.svg" class="six-brand-img" alt="Opel Marka Otomobiller">
+                <div class="home-card-body">
+                    <h4 class="home-text-brand">Opel</h4>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="brand">
+        <a href="../marka/dacia.html" class="brand-link">
+            <div class="card h-100">
+                <img src="../logo/dacia.svg" class="six-brand-img" alt="Dacia Marka Otomobiller">
+                <div class="home-card-body">
+                    <h4 class="home-text-brand">Dacia</h4>
+                </div>
+            </div>
+        </a>
+    </div>
+    <div class="brand">
+        <a href="../marka/toyota.html" class="brand-link">
+            <div class="card h-100">
+                <img src="../logo/toyota.svg" class="six-brand-img" alt="Toyota Marka Otomobiller">
+                <div class="home-card-body">
+                    <h4 class="home-text-brand">Toyota</h4>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>
+<a href="../marka/" style="text-decoration: none;">
+    <div class="seen" data-bs-toggle="modal" data-bs-target="#exampleModal"
+        style="display: flex; align-items: center; justify-content: center; margin: 0.7rem;">
+        Tümünü Göster >
+    </div>
+</a>
+<social-share></social-share>
+<br>
+<h2 class="genel-baslik-3" style="margin-top: 1rem;">Mitsubishi Modelleri: Japon Teknolojisi ve Dayanıklılık</h2>
+<p>Mitsubishi, Japon mühendisliğinin dayanıklılığı ve güvenilirliğiyle öne çıkan bir otomobil markasıdır. SUV, crossover
+    ve pick-up segmentlerinde sağlam ve teknolojik araçlar sunan Mitsubishi, zorlu yol şartlarında bile üstün performans
+    sergiler. Şehir içi kullanımda pratikliğiyle, arazi şartlarında ise dayanıklılığıyla dikkat çeken Mitsubishi
+    modelleri, her ihtiyaca uygun çözümler sunar.</p>
+<p>Mitsubishi’nin MIVEC motor teknolojisi, düşük yakıt tüketimini yüksek performansla birleştirirken, Super All-Wheel
+    Control sistemi üstün yol tutuş kabiliyeti sağlar. Markanın hibrit ve elektrikli araç serisi, çevre dostu çözümler
+    sunarak sürdürülebilir bir sürüş deneyimi yaşatır. Outlander gibi popüler modeller, geniş iç hacmi ve konforlu
+    oturma alanlarıyla aileler için ideal bir seçenek sunar.</p>
+<p>Bu sayfada Mitsubishi’nin farklı segmentlerdeki modellerini detaylı olarak inceleyebilir, her bir aracın teknik
+    özelliklerini ve kullanıcı yorumlarını karşılaştırabilirsiniz. Mitsubishi’nin dayanıklı ve teknolojik araçlarıyla
+    ihtiyacınıza en uygun modeli kolayca bulabilirsiniz.</p>
+<p>Bu sayfadaki <strong>Mitsubishi modellerine ait bilgiler</strong>, <a href="https://www.mitsubishi-motors.com.tr/"
+        target="_blank" rel="noopener noreferrer">Mitsubishi Türkiye’nin resmi web sitesi</a> ve <a
+        href="https://www.mitsubishi-motors.com/" target="_blank" rel="noopener noreferrer">Mitsubishi Global</a>
+    kaynaklarından derlenmiştir.</p>
+<!-- Footer -->
+</div>
+<my-footer></my-footer>
+<!-- External Scripts -->
+<script src="../fetch/social-share.js" defer></script>
+<script src="../fetch/body.js" defer></script>
+<script src="../fetch/testdata.js" defer></script>
+<script src="../fetch/markalar.js" defer></script>
+<script type="text/javascript"
+    src="https://platform-api.sharethis.com/js/sharethis.js#property=67387d419091730012acf08b&product=inline-share-buttons&source=platform"
+    async></script>
+</body>
+
+</html>

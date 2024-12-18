@@ -9,55 +9,40 @@
         content="Mercedes-Benz, lüks ve yüksek performansı birleştiriyor. Teknik özellikler ve kullanıcı yorumlarıyla en popüler Mercedes-Benz araçlarını inceleyin.">
     <meta name="robots" content="index, follow">
     <meta name="hreflang" content="tr">
-
     <!-- Canonical -->
     <link rel="canonical" href="https://otovivo.com/marka/mercedes-benz.html">
-
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Mercedes-Benz | Lüks ve Performans: Özellikler ve Yorumlar">
-    <meta property="og:description" content=Mercedes-Benz, lüks ve yüksek performansı birleştiriyor. Teknik özellikler
-        ve kullanıcı yorumlarıyla en popüler Mercedes-Benz araçlarını inceleyin.">
+    <meta property="og:description"
+        content="Mercedes-Benz, lüks ve yüksek performansı birleştiriyor. Teknik özellikler ve kullanıcı yorumlarıyla en popüler Mercedes-Benz araçlarını inceleyin.">
     <meta property="og:image" content="https://otovivo.com/img/mercedes-benz.png">
     <meta property="og:url" content="https://otovivo.com/marka/mercedes-benz.html">
     <meta property="og:type" content="website">
-
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content=Mercedes-Benz | Lüks ve Performans: Özellikler ve Yorumlar">
-    <meta name="twitter:description" content=Mercedes-Benz, lüks ve yüksek performansı birleştiriyor. Teknik özellikler
-        ve kullanıcı yorumlarıyla en popüler Mercedes-Benz araçlarını inceleyin.">
+    <meta name="twitter:title" content="Mercedes-Benz | Lüks ve Performans: Özellikler ve Yorumlar">
+    <meta name="twitter:description"
+        content="Mercedes-Benz, lüks ve yüksek performansı birleştiriyor. Teknik özellikler ve kullanıcı yorumlarıyla en popüler Mercedes-Benz araçlarını inceleyin.">
     <meta name="twitter:image" content="https://otovivo.com/img/mercedes-benz.png">
-
     <!-- Preconnect for Performance -->
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-
     <!-- CSS Stylesheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css" media="print" onload="this.media='all'">
-
     <!-- Icons -->
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <link rel="icon" href="/img/otovivo.svg" type="image/svg+xml">
     <link rel="icon" href="/img/otovivo.ico" type="image/x-icon">
-
     <!-- Title -->
     <title>Mercedes-Benz | Lüks ve Performans: Özellikler ve Yorumlar</title>
-
     <!-- JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"
-        defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
         defer></script>
-
-    <!-- Inline CSS -->
-    <style>
-        body {
-            font-family: 'Montserrat', sans-serif;
-        }
-    </style>
+    <script src="../fetch/header.js" defer></script>
+    <script src="../fetch/footer.js" defer></script>
 </head>
 
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
@@ -73,22 +58,105 @@
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -25%"
             data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0" id="categories-container">
         </div>
+        <h3 class="genel-baslik-3">Diğer Markalara Göz Atın!</h3>
+        <div class="row row-cols-3 row-cols-md-6 g-4 mt-3">
+            <div class="brand">
+                <a href="../marka/citroen.html" class="brand-link">
+                    <div class="card h-100">
+                        <img src="../logo/citroen.svg" class="six-brand-img" alt="Citroen Marka Otomobiller">
+                        <div class="home-card-body">
+                            <h4 class="home-text-brand">Peugeot</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="brand">
+                <a href="../marka/nissan.html" class="brand-link">
+                    <div class="card h-100">
+                        <img src="../logo/nissan.svg" class="six-brand-img" alt="Nissan Marka Otomobiller">
+                        <div class="home-card-body">
+                            <h4 class="home-text-brand">Nissan</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="brand">
+                <a href="../marka/fiat.html" class="brand-link">
+                    <div class="card h-100">
+                        <img src="../logo/fiat.svg" class="six-brand-img" alt="Fiat Marka Otomobiller">
+                        <div class="home-card-body">
+                            <h4 class="home-text-brand">Fiat</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="brand">
+                <a href="../marka/opel.html" class="brand-link">
+                    <div class="card h-100">
+                        <img src="../logo/opel.svg" class="six-brand-img" alt="Opel Marka Otomobiller">
+                        <div class="home-card-body">
+                            <h4 class="home-text-brand">Opel</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="brand">
+                <a href="../marka/dacia.html" class="brand-link">
+                    <div class="card h-100">
+                        <img src="../logo/dacia.svg" class="six-brand-img" alt="Dacia Marka Otomobiller">
+                        <div class="home-card-body">
+                            <h4 class="home-text-brand">Dacia</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="brand">
+                <a href="../marka/toyota.html" class="brand-link">
+                    <div class="card h-100">
+                        <img src="../logo/toyota.svg" class="six-brand-img" alt="Toyota Marka Otomobiller">
+                        <div class="home-card-body">
+                            <h4 class="home-text-brand">Toyota</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <a href="../marka/" style="text-decoration: none;">
+            <div class="seen" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                style="display: flex; align-items: center; justify-content: center; margin: 0.7rem;">
+                Tümünü Göster >
+            </div>
+        </a>
+        <social-share></social-share>
+        <br>
+        <h2 class="genel-baslik-3" style="margin-top: 1rem;">Mercedes-Benz Modelleri: Zarafet ve Yenilikçi Teknolojiler
+        </h2>
+        <p>Mercedes-Benz, zarafet, teknoloji ve güvenilirliği bir arada sunan lüks bir otomobil markasıdır. Sedan, SUV,
+            coupe ve spor otomobil segmentlerinde geniş bir model yelpazesi sunan Mercedes-Benz, sürücülere her
+            yolculukta konfor ve prestij sunar. Şık tasarımları ve üstün mühendislik özellikleri, Mercedes-Benz’i lüks
+            otomobil dünyasında lider konumuna taşır.</p>
+        <p>Markanın EQ serisi elektrikli modelleri, çevre dostu bir yaklaşımı temsil ederken, 4MATIC dört tekerlekten
+            çekiş sistemi üstün yol tutuş sağlar. MBUX bilgi-eğlence sistemi ve sürüş destek teknolojileri, sürüş
+            deneyimini daha konforlu ve güvenli hale getirir. E-Serisi, GLE ve EQS gibi modeller, hem tasarım hem de
+            performans açısından kullanıcıların beğenisini toplar.</p>
+        <p>Bu sayfada Mercedes-Benz modellerine dair teknik detayları ve kullanıcı yorumlarını inceleyebilir, size en
+            uygun aracı kolayca seçebilirsiniz. Mercedes-Benz ile hem lüksü hem de teknolojiyi bir arada deneyimleyin.
+        </p>
+        <p>Bu sayfadaki <strong>Mercedes-Benz modellerine ait bilgiler</strong>, <a
+                href="https://www.mercedes-benz.com.tr/" target="_blank" rel="noopener noreferrer">Mercedes-Benz
+                Türkiye’nin resmi web sitesi</a> ve <a href="https://www.mercedes-benz.com/" target="_blank"
+                rel="noopener noreferrer">Mercedes-Benz Global</a> kaynaklarından derlenmiştir.</p>
+        <!-- Footer -->
     </div>
-
     <my-footer></my-footer>
-
-    <script src="../fetch/markalar.js"></script>
-    <script src="../fetch/header.js"></script>
-    <script src="../fetch/footer.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <!-- External Scripts -->
+    <script src="../fetch/social-share.js" defer></script>
+    <script src="../fetch/body.js" defer></script>
+    <script src="../fetch/testdata.js" defer></script>
+    <script src="../fetch/markalar.js" defer></script>
+    <script type="text/javascript"
+        src="https://platform-api.sharethis.com/js/sharethis.js#property=67387d419091730012acf08b&product=inline-share-buttons&source=platform"
+        async></script>
 </body>
 
 </html>

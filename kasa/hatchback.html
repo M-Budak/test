@@ -1,92 +1,132 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Şehir yaşamına uygun, pratik hatchback modelleri. Kullanıcı yorumları, teknik özellikler ve performans değerlendirmeleriyle size uygun hatchback modeller!">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <link rel="stylesheet" href="../style.css">
-    <script src="https://kit.fontawesome.com/a67856db21.js" crossorigin="anonymous"></script>
-    <script src="../fetch/body.js"></script>
-    <script src="../fetch/header.js" defer></script>
-    <script src="../fetch/footer.js" defer></script>
-    <title>Şehir Yaşamına Uygun Hatchback Modelleri | Kullanıcı Yorumları</title>
+  <!-- Meta Information -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Şehir yaşamına uygun, pratik hatchback modelleri. Kullanıcı yorumları, teknik özellikler ve performans değerlendirmeleriyle size uygun hatchback modeller!">
+  <meta name="robots" content="index, follow">
+  <meta name="hreflang" content="tr">
+  <!-- Canonical -->
+  <link rel="canonical" href="https://otovivo.com/kasa/hatchback.html">
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Şehir Yaşamına Uygun Hatchback Modelleri | Kullanıcı Yorumları">
+  <meta property="og:description"
+    content="Şehir yaşamına uygun, pratik hatchback modelleri. Kullanıcı yorumları, teknik özellikler ve performans değerlendirmeleriyle size uygun hatchback modeller!">
+  <meta property="og:image" content="https://otovivo.com/img/hatchback.png">
+  <meta property="og:url" content="https://otovivo.com/kasa/hatchback.html">
+  <meta property="og:type" content="website">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Şehir Yaşamına Uygun Hatchback Modelleri | Kullanıcı Yorumları">
+  <meta name="twitter:description"
+    content="Şehir yaşamına uygun, pratik hatchback modelleri. Kullanıcı yorumları, teknik özellikler ve performans değerlendirmeleriyle size uygun hatchback modeller!">
+  <meta name="twitter:image" content="https://otovivo.com/img/hatchback.png">
+  <!-- Preconnect for Performance -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <!-- CSS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style.css" media="print" onload="this.media='all'">
+  <!-- Icons -->
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="icon" href="/img/otovivo.svg" type="image/svg+xml">
+  <link rel="icon" href="/img/otovivo.ico" type="image/x-icon">
+  <!-- Title -->
+  <title>Şehir Yaşamına Uygun Hatchback Modelleri | Kullanıcı Yorumları</title>
+  <!-- JavaScript -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+    defer></script>
+  <script src="../fetch/header.js" defer></script>
+  <script src="../fetch/footer.js" defer></script>
 </head>
+
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0">
-    <my-header></my-header>
-    
-    <div class="carbody container">  
-        <h1 class="genel-baslik-1 mt-2">Hatchback Kasa Araba Modelleri</h1>
-        <p class="description">
-            Hatchback modelleri, kompakt tasarımları ve pratik yapılarıyla şehir içi sürüşler için ideal araçlardır. Otovivo’da hatchback araçlar hakkında detaylı özellikler, kullanıcı puanları ve yorumlara ulaşabilirsiniz. Pratik bagaj alanı, yüksek yakıt verimliliği ve kolay park edilebilirlik gibi avantajlarıyla hatchback modelleri, günlük kullanımda mükemmel bir tercih olabilir.
-        </p>
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -25%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-            <!-- Sedan Modeller -->
-            <div class="row" id="given-ids" data-model-ids="BMBSHBF4,HNCVSE11,PE48HB1N,CT4XHB1N"></div>
-            <!-- alt başlık olursa diye
+  <my-header></my-header>
+
+  <div class="carbody container">
+    <h1 class="genel-baslik-1 mt-2">Hatchback Kasa Araba Modelleri</h1>
+    <p class="description">
+      Hatchback modelleri, kompakt tasarımları ve pratik yapılarıyla şehir içi sürüşler için ideal araçlardır.
+      Otovivo’da hatchback araçlar hakkında detaylı özellikler, kullanıcı puanları ve yorumlara ulaşabilirsiniz. Pratik
+      bagaj alanı, yüksek yakıt verimliliği ve kolay park edilebilirlik gibi avantajlarıyla hatchback modelleri, günlük
+      kullanımda mükemmel bir tercih olabilir.
+    </p>
+    <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -25%"
+      data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+      <!-- Sedan Modeller -->
+      <div class="row" id="given-ids" data-model-ids="RNCLHB5N,OPCSHBFN,HY20HB3N,VWPLHB6N,PE28SE?N,OPASHB?N,VWGFHB8N,DCSNHB3N,TYYRHB?N,CTC3HB1N1,PE38HB?N,BMBSHBF4,HY10HB?N,KIPCHB?N,HNJZHB?N,DCJGSU?N,MGG4HB?N,KIEDHB?N,CTC4SU1N,CT4XHB1N,FT50HB?N,FTPNHB?N,KIEDSW?N,TYCRHB?N,VWGTHB?N,VWGRHB?N,HY2NHB?N"></div>
+      <!-- alt başlık olursa diye
             <h2 class="genel-baslik-2">Otomobil Markaları</h2>
             <div class="row row-cols-3 row-cols-md-6 g-4 mt-3"></div> -->
+    </div>
+
+    <section id="faq">
+      <h2>Hatchback Otomobil Modelleri Hakkında Sık Sorulan Sorular</h2>
+      <!-- FAQ 1 -->
+      <div class="accordion-item">
+        <h3 class="accordion">
+          Hatchback otomobillerin avantajları nelerdir?
+        </h3>
+        <div class="panel">
+          <p>Hatchback otomobiller, kompakt yapıları sayesinde şehir içi park yeri ve manevra kolaylığı sunar. Ayrıca,
+            geniş bagaj alanı ve düşük yakıt tüketimi ile dikkat çekerler.</p>
         </div>
-        
-        <section id="faq">
-            <h2>Hatchback Otomobil Modelleri Hakkında Sık Sorulan Sorular</h2>
-            <!-- FAQ 1 -->
-            <div class="accordion-item">
-                <h3 class="accordion">
-                    Hatchback otomobillerin avantajları nelerdir?
-                </h3>
-                <div class="panel">
-                    <p>Hatchback otomobiller, kompakt yapıları sayesinde şehir içi park yeri ve manevra kolaylığı sunar. Ayrıca, geniş bagaj alanı ve düşük yakıt tüketimi ile dikkat çekerler.</p>
-                </div>
-            </div>
-        
-            <!-- FAQ 2 -->
-            <div class="accordion-item">
-                <h3 class="accordion">
-                    Hatchback otomobillerin sürüş özellikleri nasıldır?
-                </h3>
-                <div class="panel">
-                    <p>Hatchback otomobiller, genellikle hafif yapıları sayesinde çevik ve dinamik sürüş sunar. Yüksek manevra kabiliyeti, özellikle dar alanlarda park etme kolaylığı sağlar.</p>
-                </div>
-            </div>
-        
-            <!-- FAQ 3 -->
-            <div class="accordion-item">
-                <h3 class="accordion">
-                    Hatchback otomobil modelleri ile SUV'ler arasındaki farklar nelerdir?
-                </h3>
-                <div class="panel">
-                    <p>Hatchback otomobiller, SUV'lere göre daha kompakt ve hafif olup, daha az yakıt tüketir. SUV'ler ise genellikle daha yüksek yol tutuşu ve daha geniş iç mekan sunar, fakat hatchback'ler şehir içinde daha pratik olabilir.</p>
-                </div>
-            </div>
-        
-            <!-- FAQ 4 -->
-            <div class="accordion-item">
-                <h3 class="accordion">
-                    Hatchback otomobil alırken nelere dikkat edilmelidir?
-                </h3>
-                <div class="panel">
-                    <p>Hatchback otomobil alırken, bagaj hacmi, yakıt verimliliği, iç mekan genişliği ve sürüş özellikleri gibi faktörler dikkate alınmalıdır. Ayrıca, aracın güvenlik donanımları ve teknoloji özellikleri de önemli kriterlerdir.</p>
-                </div>
-            </div>
-        
-            <!-- FAQ 5 -->
-            <div class="accordion-item">
-                <h3 class="accordion">
-                    Hatchback otomobillerin bakım maliyetleri yüksek midir?
-                </h3>
-                <div class="panel">
-                    <p>Hatchback otomobillerin bakım maliyetleri genellikle daha düşüktür. Küçük motorlu ve daha az karmaşık mekanik yapıdan dolayı, parça değişimi ve bakım işlemleri daha ekonomik olabilir.</p>
-                </div>
-            </div>
-        </section>
-        
-        <!-- FAQ Schema Markup -->
-        <script type="application/ld+json">
+      </div>
+
+      <!-- FAQ 2 -->
+      <div class="accordion-item">
+        <h3 class="accordion">
+          Hatchback otomobillerin sürüş özellikleri nasıldır?
+        </h3>
+        <div class="panel">
+          <p>Hatchback otomobiller, genellikle hafif yapıları sayesinde çevik ve dinamik sürüş sunar. Yüksek manevra
+            kabiliyeti, özellikle dar alanlarda park etme kolaylığı sağlar.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 3 -->
+      <div class="accordion-item">
+        <h3 class="accordion">
+          Hatchback otomobil modelleri ile SUV'ler arasındaki farklar nelerdir?
+        </h3>
+        <div class="panel">
+          <p>Hatchback otomobiller, SUV'lere göre daha kompakt ve hafif olup, daha az yakıt tüketir. SUV'ler ise
+            genellikle daha yüksek yol tutuşu ve daha geniş iç mekan sunar, fakat hatchback'ler şehir içinde daha pratik
+            olabilir.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 4 -->
+      <div class="accordion-item">
+        <h3 class="accordion">
+          Hatchback otomobil alırken nelere dikkat edilmelidir?
+        </h3>
+        <div class="panel">
+          <p>Hatchback otomobil alırken, bagaj hacmi, yakıt verimliliği, iç mekan genişliği ve sürüş özellikleri gibi
+            faktörler dikkate alınmalıdır. Ayrıca, aracın güvenlik donanımları ve teknoloji özellikleri de önemli
+            kriterlerdir.</p>
+        </div>
+      </div>
+
+      <!-- FAQ 5 -->
+      <div class="accordion-item">
+        <h3 class="accordion">
+          Hatchback otomobillerin bakım maliyetleri yüksek midir?
+        </h3>
+        <div class="panel">
+          <p>Hatchback otomobillerin bakım maliyetleri genellikle daha düşüktür. Küçük motorlu ve daha az karmaşık
+            mekanik yapıdan dolayı, parça değişimi ve bakım işlemleri daha ekonomik olabilir.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Schema Markup -->
+    <script type="application/ld+json">
         {
           "@context": "https://schema.org",
           "@type": "FAQPage",
@@ -134,14 +174,96 @@
           ]
         }
       </script>
-</div>        
-    
-    <my-footer></my-footer>
-    
-    
-    <!-- Bootstrap JavaScript Dosyaları -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4JQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <h3 class="genel-baslik-3">Diğer Kasa Tiplerine Göz Atın!</h3>
+    <div class="row row-cols-3 row-cols-md-6 g-4 mt-3">
+      <div class="brand">
+        <a href="../kasa/suv.html" class="brand-link">
+          <div class="card h-100">
+            <img src="../logo/suv.webp" class="six-brand-img" loading="lazy" alt="SUV Arabalar">
+            <div class="home-card-body">
+              <h4 class="home-text-brand">SUV</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="brand">
+        <a href="../kasa/sedan.html" class="brand-link">
+          <div class="card h-100">
+            <img src="../logo/sedan.webp" class="six-brand-img" loading="lazy" alt="Sedan Arabalar">
+            <div class="home-card-body">
+              <h4 class="home-text-brand">Sedan</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="brand">
+        <a href="../kasa/spor-otomobiller.html" class="brand-link">
+          <div class="card h-100">
+            <img src="../logo/spor.webp" class="six-brand-img" loading="lazy" alt="Spor Arabalar">
+            <div class="home-card-body">
+              <h4 class="home-text-brand">Spor</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="brand">
+        <a href="../kasa/ticari.html" class="brand-link">
+          <div class="card h-100">
+            <img src="../logo/sedan.webp" class="six-brand-img" loading="lazy" alt="Ticari(Minivan) Arabalar">
+            <div class="home-card-body">
+              <h4 class="home-text-brand">Ticari</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="brand">
+        <a href="../kasa/pickup.html" class="brand-link">
+          <div class="card h-100">
+            <img src="../logo/pickup.webp" class="six-brand-img" loading="lazy" alt="Pickup Arabalar">
+            <div class="home-card-body">
+              <h4 class="home-text-brand">Pickup</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="brand">
+        <a href="../kasa/" class="brand-link">
+          <div class="card h-100">
+            <img src="../logo/kasa.webp" class="six-brand-img" loading="lazy" alt="Araba Kasaları">
+            <div class="home-card-body">
+              <h4 class="home-text-brand">Tümünü Göster</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <social-share></social-share>
+    <br>
+    <h2 class="genel-baslik-3" style="margin-top: 1rem;">Hatchback Modelleri: Şehir Hayatı için Kompakt ve Pratik
+      Çözümler</h2>
+    <p>Hatchback araçlar, kompakt boyutları ve pratik kullanım özellikleriyle şehir içi sürüş için ideal bir tercihtir.
+      Manevra kabiliyeti yüksek olan bu modeller, dar alanlarda kolaylıkla park edilebilirken, düşük yakıt tüketimiyle
+      de dikkat çeker. Modern tasarımları ve geniş iç hacimleri, hem bireysel kullanıcılar hem de küçük aileler için
+      uygun bir çözüm sunar.</p>
+    <p>Hatchback segmentindeki araçlar, genellikle arka bagaj kapısının açılır tavan yapısıyla geniş bir yükleme alanı
+      sağlar. Bu, özellikle günlük kullanımda alışveriş ve küçük eşyaların taşınması için büyük bir avantajdır. Gelişmiş
+      sürüş destek sistemleri ve kullanıcı dostu teknolojileriyle donatılmış hatchback modeller, konfor ve güvenliği bir
+      araya getirir.</p>
+    <p>Bu sayfada farklı markaların hatchback modellerini inceleyebilir, teknik özelliklerini ve kullanıcı yorumlarını
+      keşfedebilirsiniz. Şehir içi sürüşte maksimum verimlilik sağlayan hatchback araçlar, her ihtiyaca uygun seçenekler
+      sunar.</p>
+    <!-- Footer -->
+  </div>
+  <my-footer></my-footer>
+  <!-- External Scripts -->
+  <script src="../fetch/social-share.js" defer></script>
+  <script src="../fetch/body.js" defer></script>
+  <script src="../fetch/testdata.js" defer></script>
+  <script src="../fetch/markalar.js" defer></script>
+  <script type="text/javascript"
+    src="https://platform-api.sharethis.com/js/sharethis.js#property=67387d419091730012acf08b&product=inline-share-buttons&source=platform"
+    async></script>
 </body>
+
 </html>

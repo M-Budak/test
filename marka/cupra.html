@@ -51,41 +51,72 @@
         <h1 class="genel-baslik-1 mt-4 mb-4">Cupra Otomobil Modelleri</h1>
         <p>Cupra marka araba arayanlar için en şık modeller ve gerçek kullanıcı yorumları ve puanlarıyla en iyi Cupra
             araçlarını keşfedin.</p>
-        <nav id="navbar-example2" class="navbar bg-body-white mb-3 sticky-top">
+        <!-- <nav id="navbar-example2" class="navbar bg-body-white mb-3 sticky-top">
             <ul class="nav nav-pills" id="navbar-nav"></ul>
-        </nav>
+        </nav> -->
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -25%"
             data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0" id="categories-container">
+            <div id="suv">
+                <h2 class="genel-baslik-2">Cupra SUV Modeller</h2>
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <div class="card car-card ">
+                            <a href="../model/formentor.html">
+                                <img src="../img/models/formentor.webp" class="card-img-top-brand "
+                                    alt="Cupra Formentor, performans ve şıklığı bir arada sunan sportif bir SUV modelidir.">
+                                <div class="card-body">
+                                    <h3 class="card-title">Cupra Formentor</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <h3 class="genel-baslik-3">Diğer Markalara Göz Atın!</h3>
         <div class="row row-cols-3 row-cols-md-6 g-4 mt-3">
-            <div class="brand">
-                <a href="../marka/citroen.html" class="brand-link">
-                    <div class="card h-100">
-                        <img src="../logo/citroen.svg" class="six-brand-img" loading="lazy" alt="Citroen Marka Otomobiller">
+            <div class="brand modal-card" data-popup="true">
+                <a href="../marka/seat.html" class="brand-link">
+                    <div class="card h-100 d-flex flex-column align-items-center">
+                        <img src="../logo/seat.svg" class="modal-img-brand"
+                            alt="Seat araç yorumları ve kullanıcı deneyimleri - İspanyol Otomobil Markası">
                         <div class="home-card-body">
-                            <h4 class="home-text-brand">Peugeot</h4>
+                            <h5 class="home-text-brand">Seat</h5>
+                        </div>
+                        <div class="badge">Çok Yakında</div>
+                    </div>
+                </a>
+            </div>
+            <div class="brand modal-card">
+                <a href="../marka/honda.html" class="brand-link">
+                    <div class="card h-100 d-flex flex-column align-items-center">
+                        <img src="../logo/honda.svg" class="modal-img-brand"
+                            alt="Honda araç yorumları ve kullanıcı deneyimleri - Japon Otomobil Markası">
+                        <div class="home-card-body">
+                            <h5 class="home-text-brand">Honda</h5>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="brand">
-                <a href="../marka/nissan.html" class="brand-link">
-                    <div class="card h-100">
-                        <img src="../logo/nissan.svg" class="six-brand-img" loading="lazy" alt="Nissan Marka Otomobiller">
+            <div class="brand modal-card">
+                <a href="../marka/volkswagen.html" class="brand-link">
+                    <div class="card h-100 d-flex flex-column align-items-center">
+                        <img src="../logo/volkswagen.svg" class="modal-img-brand"
+                            alt="Volkswagen araç yorumları ve kullanıcı deneyimleri - Alman Otomobil Markası">
                         <div class="home-card-body">
-                            <h4 class="home-text-brand">Nissan</h4>
+                            <h5 class="home-text-brand">Volkswagen</h5>
                         </div>
                     </div>
                 </a>
             </div>
-            <div class="brand">
-                <a href="../marka/fiat.html" class="brand-link">
-                    <div class="card h-100">
-                        <img src="../logo/fiat.svg" class="six-brand-img" loading="lazy" alt="Fiat Marka Otomobiller">
+            <div class="brand modal-card">
+                <a href="../marka/bmw.html" class="brand-link">
+                    <div class="card h-100 d-flex flex-column align-items-center">
+                        <img src="../logo/bmw.svg" class="modal-img-brand"
+                            alt="BMW araç yorumları ve kullanıcı deneyimleri - Alman Premium Otomobil Markası">
                         <div class="home-card-body">
-                            <h4 class="home-text-brand">Fiat</h4>
+                            <h5 class="home-text-brand">BMW</h5>
                         </div>
                     </div>
                 </a>
@@ -100,22 +131,13 @@
                     </div>
                 </a>
             </div>
-            <div class="brand">
-                <a href="../marka/dacia.html" class="brand-link">
-                    <div class="card h-100">
-                        <img src="../logo/dacia.svg" class="six-brand-img" loading="lazy" alt="Dacia Marka Otomobiller">
+            <div class="brand modal-card">
+                <a href="../marka/ford.html" class="brand-link">
+                    <div class="card h-100 d-flex flex-column align-items-center">
+                        <img src="../logo/ford.svg" class="modal-img-brand"
+                            alt="Ford araç yorumları ve kullanıcı deneyimleri - Amerikan Otomobil Markası">
                         <div class="home-card-body">
-                            <h4 class="home-text-brand">Dacia</h4>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="brand">
-                <a href="../marka/toyota.html" class="brand-link">
-                    <div class="card h-100">
-                        <img src="../logo/toyota.svg" class="six-brand-img" loading="lazy" alt="Toyota Marka Otomobiller">
-                        <div class="home-card-body">
-                            <h4 class="home-text-brand">Toyota</h4>
+                            <h5 class="home-text-brand">Ford</h5>
                         </div>
                     </div>
                 </a>
